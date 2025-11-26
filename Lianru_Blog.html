@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Lianru's Archive - A digital collection of thoughts on Economics, Philosophy, and Wealth.">
+    <meta name="keywords" content="Lianru, Blog, Economics, Philosophy, Soros, Billionaire, 经济学, 哲学">
+    <meta name="author" content="Lianru">
+    
+    <title>LIANRU ARCHIVE</title>
+    
+    <style>
+        /* ==================== 样式区 (CSS) ==================== */
+        :root { --bg-color: #f0f0f0; --card-bg: #ffffff; --border-thick: 3px solid #000; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: var(--bg-color); color: #111; font-family: 'Helvetica Neue', sans-serif; line-height: 1.6; padding-bottom: 50px; }
+        
+        /* 顶部导航 */
+        header { background-color: #000; color: #fff; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 5px solid #333; }
+        .logo { font-family: 'Courier New', monospace; font-size: 1.5rem; font-weight: bold; cursor: pointer; }
+        .logo span { background: #fff; color: #000; padding: 0 5px; margin-right: 5px; }
+        .nav-menu a { color: #ccc; text-decoration: none; margin-left: 20px; font-size: 0.9rem; font-weight: bold; text-transform: uppercase; }
+
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+
+        /* 🔍 搜索框样式 (New Search Box) */
+        .search-wrapper { margin-bottom: 30px; position: relative; }
+        .search-input {
+            width: 100%;
+            padding: 15px;
+            font-size: 1rem;
+            border: 2px solid #000;
+            background: #fff;
+            font-family: 'Courier New', monospace;
+            outline: none;
+        }
+        .search-input:focus { background: #ffffcc; } /* 聚焦变黄 */
+
+        /* 列表与卡片 */
+        .intro-box { border: var(--border-thick); padding: 30px; margin-bottom: 40px; background: var(--card-bg); box-shadow: 8px 8px 0px rgba(0,0,0,0.1); }
+        .intro-quote { font-family: 'Courier New', monospace; font-size: 0.9rem; color: #666; border-left: 4px solid #000; padding-left: 15px; }
+        
+        .post-card { background: var(--card-bg); border: 1px solid #000; margin-bottom: 20px; padding: 25px; transition: all 0.2s ease; cursor: pointer; }
+        .post-card:hover { transform: translateY(-3px); box-shadow: 6px 6px 0px #000; border-color: #000; }
+        .post-meta { font-family: 'Courier New', monospace; font-size: 0.8rem; color: #666; margin-bottom: 10px; text-transform: uppercase; }
+        .post-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 5px; }
+        
+        /* 隐藏功能 */
+        .hidden { display: none !important; }
+
+        /* 文章详情 */
+        #article-view { display: none; background: var(--card-bg); border: var(--border-thick); padding: 50px; box-shadow: 10px 10px 0px rgba(0,0,0,0.1); }
+        .back-btn { display: inline-block; background: #000; color: #fff; padding: 5px 15px; font-family: 'Courier New', monospace; cursor: pointer; font-size: 0.8rem; margin-bottom: 30px; }
+        .full-article-title { font-size: 2.2rem; font-weight: 800; margin-bottom: 10px; border-bottom: 4px solid #000; padding-bottom: 20px; }
+        .full-article-content { font-size: 1.15rem; margin-top: 30px; font-family: 'Georgia', serif; }
+        .full-article-content p { margin-bottom: 25px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo" onclick="showHome()"><span>LIANRU</span>ARCHIVE</div>
+        <nav class="nav-menu">
+            <a href="#" onclick="showHome()">Index</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <div id="list-view">
+            <div class="intro-box">
+                <h2>WELCOME.</h2><br>
+                <div class="intro-quote">
+                    "The best way to predict the future is to create it."
+                </div>
+            </div>
+
+            <div class="search-wrapper">
+                <input type="text" id="search-input" class="search-input" placeholder="Type to search... (输入关键词搜索)" onkeyup="filterPosts()">
+            </div>
+
+            <div id="posts-container"></div>
+            <div id="no-results" style="display:none; text-align:center; color:#666;">No articles found.</div>
+        </div>
+
+        <div id="article-view">
+            <div class="back-btn" onclick="showHome()">[ < BACK ]</div>
+            <h1 class="full-article-title" id="view-title"></h1>
+            <div class="post-meta" id="view-date"></div>
+            <div class="full-article-content" id="view-body"></div>
+        </div>
+
+    </div>
+
+    <script>
+        // ==========================================
+        // 🔴 数据中心 (DATA CENTER)
+        // ==========================================
+        const blogPosts = [
+            {
+                id: 1, 
+                title: "Find the passion(找到激情所在)", 
+                date: "2025-11-20 | PHILOSOPHY", 
+                content: `<p>Humans are narrative creatures.</p><p>人类是叙事动物。</p>`
+            },
+            {
+                id: 2,
+                title: "Make dream come true(去实现梦想)",
+                date: "2025-09-22 | LIFE",
+                content: ` <p>Dream is not an emotion; it is a state of being.</p>
+                    <p>梦想不是一种情绪，而是一种存在状态。</p>
+                    <p><strong>重点：</strong> 追求梦想要立刻行动。</p>`
+            },
+            {
+                id: 3,
+                title: "The Billionaire Algorithm (亿万富翁算法)",
+                date: "2025-01-01 | WEALTH",
+                content: `<p>Compound interest is the 8th wonder of the world.</p>
+                    <p>复利是世界第八大奇迹。</p>`
+            }
+        ];
+
+        // ==========================================
+        // ⚙️ 逻辑引擎 (LOGIC ENGINE)
+        // ==========================================
+        
+        const container = document.getElementById('posts-container');
+
+        // 渲染列表函数 (Render Function)
+        function renderList(posts) {
+            container.innerHTML = '';
+            if (posts.length === 0) {
+                document.getElementById('no-results').style.display = 'block';
+                return;
+            }
+            document.getElementById('no-results').style.display = 'none';
+            
+            posts.forEach(post => {
+                const div = document.createElement('div');
+                div.className = 'post-card';
+                div.onclick = () => openArticle(post.id);
+                div.innerHTML = `
+                    <div class="post-meta">${post.date}</div>
+                    <div class="post-title">${post.title}</div>
+                    <div style="font-size:0.9rem; color:#666;">Click to read ></div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // 🔍 搜索逻辑 (Search Logic)
+        function filterPosts() {
+            const query = document.getElementById('search-input').value.toLowerCase();
+            const filtered = blogPosts.filter(post => {
+                // 搜索标题 或 日期
+                return post.title.toLowerCase().includes(query) || 
+                       post.date.toLowerCase().includes(query);
+            });
+            renderList(filtered);
+        }
+
+        function openArticle(id) {
+            const post = blogPosts.find(p => p.id === id);
+            document.getElementById('view-title').innerText = post.title;
+            document.getElementById('view-date').innerText = post.date;
+            document.getElementById('view-body').innerHTML = post.content;
+            window.scrollTo(0, 0);
+            document.getElementById('list-view').style.display = 'none';
+            document.getElementById('article-view').style.display = 'block';
+        }
+
+        function showHome() {
+            document.getElementById('article-view').style.display = 'none';
+            document.getElementById('list-view').style.display = 'block';
+            document.getElementById('search-input').value = ''; // 清空搜索
+            renderList(blogPosts); // 重置列表
+            window.scrollTo(0, 0);
+        }
+
+        // 初始化显示所有文章
+        renderList(blogPosts);
+
+    </script>
+</body>
+</html>
