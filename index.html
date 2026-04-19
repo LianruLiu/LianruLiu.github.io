@@ -75,15 +75,20 @@
         </div>
     </div>
 
-    <footer>
-        <div style="margin-bottom: 15px;">
-            <span style="font-family: 'Courier New', monospace; font-weight: bold; margin-right: 10px;">CONTACT:</span>
-            <a href="mailto:lianruliu2001@gmail.com" class="footer-link">lianruliu2001@gmail.com</a>
-        </div>
-        <div class="copyright">
-            &copy; 2026 Lianru Liu. All Rights Reserved.
-        </div>
-    </footer>
+<footer>
+    <div style="margin-bottom: 15px;">
+        <span style="font-family: 'Courier New', monospace; font-weight: bold; margin-right: 10px;">CONTACT:</span>
+        <a href="mailto:lianruliu2001@gmail.com" class="footer-link">lianruliu2001@gmail.com</a>
+    </div>
+    <div class="copyright">
+        &copy; <span id="year"></span> Lianru Liu. All Rights Reserved.
+    </div>
+</footer>
+
+<script>
+    // 在页面加载时自动填入当前年份
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 
     <script>
         const blogPosts = [
