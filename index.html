@@ -11,8 +11,6 @@ title: LIANRU ARCHIVE
   </div>
 </div>
 
-<h2>Articles</h2>
-
 <div class="search-wrapper">
   <input
     type="text"
@@ -23,9 +21,11 @@ title: LIANRU ARCHIVE
   >
 </div>
 
-<div class="post-list" id="post-list">
+<h2>Articles</h2>
+
+<div class="post-list">
   {% for post in site.posts %}
-    <div class="post-card" data-title="{{ post.title | downcase }}" data-category="{{ post.categories | join: ' ' | downcase }}">
+    <div class="post-card">
       <div class="post-meta">
         {{ post.date | date: "%Y-%m-%d" }}
         {% if post.categories %}
@@ -44,37 +44,4 @@ title: LIANRU ARCHIVE
 
 <div id="no-results" style="display:none; text-align:center; color:#666;">
   No articles found.
-</div>
-
-<script>
-  function filterPosts() {
-    const query = document.getElementById('search-input').value.toLowerCase();
-    const posts = document.querySelectorAll('.post-card');
-    let visibleCount = 0;
-
-    posts.forEach(post => {
-      const title = post.dataset.title || '';
-      const category = post.dataset.category || '';
-      const text = post.innerText.toLowerCase();
-
-      if (title.includes(query) || category.includes(query) || text.includes(query)) {
-        post.style.display = 'block';
-        visibleCount++;
-      } else {
-        post.style.display = 'none';
-      }
-    });
-
-    document.getElementById('no-results').style.display =
-      visibleCount === 0 ? 'block' : 'none';
-  }
-</script>
-
-      <h2 class="post-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
-
-      <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
-    </div>
-  {% endfor %}
 </div>
