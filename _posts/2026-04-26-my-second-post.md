@@ -5,8 +5,7 @@ date: 2025-11-20
 categories: philosophy
 ---
 
-# Find the Passion
-> Humans are narrative creatures.
+Humans are narrative creatures.
 
 人类是叙事动物。
 
