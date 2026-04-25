@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-<div class="article">
+<div class="article" markdown="1">
 
-<h1>About</h1>
+# About
 
 <div class="post-meta">
 Lianru Liu · Economics · Europe
 </div>
 
-<div class="article-content">
+<div class="article-content" markdown="1">
 
 I am an economics graduate student based in Europe, with strong interests at the intersection of finance, data, technology, and decision-making.
 
@@ -22,20 +22,21 @@ I am particularly interested in environments where rigorous thinking and measura
 
 ## Core Strengths
 
-- Quantitative reasoning and economic analysis  
-- Data interpretation and evidence-based decision making  
-- Python / R / Stata / SQL workflow development  
-- Business research and structured communication  
-- Fast learning ability across technical domains  
-- Bilingual communication (Chinese / English)  
+- Quantitative reasoning and economic analysis
+- Data interpretation and evidence-based decision making
+- Python / R / Stata / SQL workflow development
+- Business research and structured communication
+- Fast learning ability across technical domains
+- Bilingual communication: Chinese / English
 - Cross-cultural adaptability in international settings
 
 ## Areas of Interest
 
-- Quantitative Finance  
-- AI & Data Applications  
-- Strategy & Consulting  
-- Economic Research  
+- Quantitative Finance
+- AI & Data Applications
+- Data Analytics
+- Strategy & Consulting
+- Economic Research
 - High-performance Businesses
 - Organic Chemistry
 
@@ -49,6 +50,15 @@ I believe long-term advantage comes from clarity of thought, disciplined executi
 
 ## Contact
 
+Email:  
+lianruliu2001@gmail.com
+
+GitHub:  
+https://github.com/lianruliu
+
+</div>
+
+</div>
 Email:  
 lianruliu2001@gmail.com
 
