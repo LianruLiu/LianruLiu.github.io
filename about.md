@@ -9,37 +9,50 @@ permalink: /about/
 <h1>About</h1>
 
 <div class="post-meta">
-Lianru Liu · Europe
+Lianru Liu · Economics · Europe
 </div>
 
 <div class="article-content">
 
-I am an M.s in Economics student based in Europe.
+I am an economics graduate student based in Europe, with strong interests at the intersection of finance, data, technology, and decision-making.
 
-This website is my public archive of ideas, ambitions, and long-term projects.
+My academic training combines quantitative analysis, economic reasoning, and statistical methods. Beyond coursework, I focus on developing practical capabilities in programming, analytical writing, and structured problem solving.
 
-My interests include:
+I am particularly interested in environments where rigorous thinking and measurable results matter.
 
-- Quant Finance
-- Artificial Intelligence
-- Entrepreneurship
-- Wealth Building
-- Philosophy
-- Technology
+## Core Strengths
+
+- Quantitative reasoning and economic analysis  
+- Data interpretation and evidence-based decision making  
+- Python / R / Stata / SQL workflow development  
+- Business research and structured communication  
+- Fast learning ability across technical domains  
+- Bilingual communication (Chinese / English)  
+- Cross-cultural adaptability in international settings
+
+## Areas of Interest
+
+- Quantitative Finance  
+- AI & Data Applications  
+- Strategy & Consulting  
+- Economic Research  
+- High-performance Businesses
 - Organic Chemistry
 
-I believe the future belongs to people who can think clearly, build independently, and act decisively.
+## Current Focus
 
----
+At present, I am building stronger technical depth in programming, analytics, and financial markets while continuously improving communication ability in English and German.
+
+## Philosophy
+
+I believe long-term advantage comes from clarity of thought, disciplined execution, and the willingness to compound effort over time.
 
 ## Contact
 
-Email:
-
+Email:  
 lianruliu2001@gmail.com
 
-GitHub:
-
+GitHub:  
 https://github.com/lianruliu
 
 </div>
