@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Find the Passion（找到激情所在）"
-date: 2025-11-20
+date: 2026-4-25
 categories: philosophy
 ---
 
