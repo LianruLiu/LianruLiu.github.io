@@ -71,7 +71,7 @@
     .intro-box {
       border: var(--border-thick);
       padding: 30px;
-      margin-bottom: 40px;
+      margin-bottom: 25px;
       background: var(--card-bg);
       box-shadow: 8px 8px 0px rgba(0,0,0,0.1);
     }
@@ -84,12 +84,31 @@
       padding-left: 15px;
     }
 
+    .search-wrapper {
+      margin: 20px 0 25px 0;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 15px;
+      font-size: 1rem;
+      border: 2px solid #000;
+      background: #fff;
+      font-family: 'Courier New', monospace;
+      outline: none;
+    }
+
+    .search-input:focus {
+      box-shadow: 5px 5px 0px #000;
+    }
+
     .post-card {
       background: var(--card-bg);
       border: 1px solid #000;
       margin-bottom: 20px;
       padding: 25px;
       transition: all 0.2s ease;
+      cursor: pointer;
     }
 
     .post-card:hover {
@@ -114,6 +133,10 @@
     .post-title a {
       color: #111;
       text-decoration: none;
+    }
+
+    .post-title a:hover {
+      text-decoration: underline;
     }
 
     .article {
@@ -204,5 +227,46 @@
       &copy; {{ site.time | date: "%Y" }} Lianru Liu. All Rights Reserved.
     </div>
   </footer>
+
+  <script>
+    function filterPosts() {
+      const input = document.getElementById('search-input');
+      if (!input) return;
+
+      const query = input.value.toLowerCase();
+      const posts = document.querySelectorAll('.post-card');
+      const noResults = document.getElementById('no-results');
+      let count = 0;
+
+      posts.forEach(post => {
+        const text = post.innerText.toLowerCase();
+
+        if (text.includes(query)) {
+          post.style.display = 'block';
+          count++;
+        } else {
+          post.style.display = 'none';
+        }
+      });
+
+      if (noResults) {
+        noResults.style.display = count === 0 ? 'block' : 'none';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const cards = document.querySelectorAll('.post-card');
+
+      cards.forEach(card => {
+        const link = card.querySelector('a');
+
+        if (link) {
+          card.addEventListener('click', function () {
+            window.location.href = link.href;
+          });
+        }
+      });
+    });
+  </script>
 </body>
 </html>
