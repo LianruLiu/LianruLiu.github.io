@@ -67,7 +67,7 @@ The paper suggests this is not about better teachers or easier classes.
 It is primarily a **role model effect**.  
 When girls see another girl become number one, several things change.
 
-##@ 1. Self-Belief Rises  
+### 1. Self-Belief Rises  
 Girls become more confident about their own academic potential.  
 Instead of thinking:  
 - “Top students are usually boys”
@@ -76,11 +76,9 @@ They begin thinking:
 - “Someone like me can be first.”
 
 ### 2. Aspirations Increase  
-They set higher goals and become more competitive academically.
-
-### 3. Study Effort Improves  
-More focus, stronger commitment, better use of time.
-
+They set higher goals and become more competitive academically.  
+### 3. Study Effort Improves    
+More focus, stronger commitment, better use of time.  
 ### 4. Parents React Too  
 Parents of daughters raise expectations and invest more support when they observe visible female success in class.
 
@@ -141,6 +139,6 @@ But through something simpler:
 
 Sometimes progress begins when one person stands at the top—and others realize they can stand there too！
 
-##Reference
+##Reference  
 [Number one girl: Female top scorers and peer academic performance in
 junior high schools](https://doi.org/10.1016/j.jdeveco.2026.103801)
