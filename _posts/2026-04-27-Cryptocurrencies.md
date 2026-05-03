@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Perpetual Futures: A Market Machine Forged by Crisis|永续合约：在灾难中进化的市场机器"
+title: "Perpetual Futures: A Market Machine Forged by Crisis"
 date: 2026-04-27
 categories: Finance
 tags: [Crypto, Derivatives, Perpetual Futures, Market Structure, Risk Management]
