@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Color Walk: A Simple Attention Reset in the Age of Cognitive Overload | 颜色散步"
+title: "Color Walk: A Simple Attention Reset in the Age of Cognitive Overload"
 date: 2026-03-02
 categories: Psychology
 tags: [Positive Psychology, Attention, Anxiety, Mindfulness, Cognitive Control]
