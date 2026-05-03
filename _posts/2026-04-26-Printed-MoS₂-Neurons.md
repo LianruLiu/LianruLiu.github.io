@@ -1,14 +1,10 @@
 ---
 layout: post
-title: "Printed MoS₂ Neurons | 印刷二维材料神经元"
+title: "Printed MoS₂ Neurons"
 date: 2026-04-26
-categories: Technology
+categories: AI
 tags: [AI, Neuromorphic, Brain Machine Interface, Materials]
 ---
-
-# Printed MoS₂ Memristive Networks for Spiking Neurons  
-# 印刷二维材料实现类生物神经元
-
 ## The Significance of This Paper  
 While modern AI accelerators exhibit immense computational power, their energy consumption dwarfs that of the human brain.  
 
