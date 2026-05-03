@@ -139,6 +139,6 @@ But through something simpler:
 
 Sometimes progress begins when one person stands at the top—and others realize they can stand there too！
 
-##Reference  
+## Reference  
 [Number one girl: Female top scorers and peer academic performance in
 junior high schools](https://doi.org/10.1016/j.jdeveco.2026.103801)
