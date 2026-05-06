@@ -5,7 +5,8 @@ date: 2026-05-03
 categories: Technology
 tags: [AI, Space, Infrastructure, Energy, Investing, Computing]
 ---
-## Introduction: The Future of AI Is No Longer Just About Models
+## The Future of AI and Wireless communication Is No Longer Just About Models
+
 Most people still think the AI race is mainly about models:  
 - larger parameter counts  
 - smarter reasoning  
