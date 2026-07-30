@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "After Yesterday's FOMC: What Warsh Is Actually Doing, and Why the Debt Math Still Wins"
+title: "After Yesterday's FOMC: What Warsh Is Actually Doing, and Why the Debt Math Still Wins（ Rate Cuts & Quantitative Tightening）"
 date: 2026-07-30
 categories: [Macroeconomics, Investment]
 tags: [Interest Rates, QT, Inflation, equity-market]
