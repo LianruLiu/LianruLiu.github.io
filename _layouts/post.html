@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% assign word_count = content | strip_html | number_of_words %}
+{% assign reading_time = word_count | divided_by: 200 %}
+{% if reading_time < 1 %}{% assign reading_time = 1 %}{% endif %}
+
 <article class="article">
   <a href="{{ '/' | relative_url }}" class="back-link">[ < BACK ]</a>
 
@@ -10,9 +14,26 @@ layout: default
   <div class="post-meta">
     {{ page.date | date: "%Y.%m.%d" }}
     {% if page.categories %}
-      · {{ page.categories | join: " / " }}
+      ·
+      {% for cat in page.categories %}
+        <a href="{{ '/categories/' | relative_url }}#{{ cat | slugify }}" class="category-pill">{{ cat }}</a>
+      {% endfor %}
     {% endif %}
+    <span class="meta-extra">· {{ word_count }} words · {{ reading_time }} min read</span>
   </div>
+
+  {% if page.tags %}
+  <div class="tag-list">
+    {% for tag in page.tags %}
+      <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="tag-pill">{{ tag }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <nav class="toc-box" id="toc">
+    <div class="toc-title">Contents</div>
+    <ul id="toc-list"></ul>
+  </nav>
 
   <div class="article-content">
     {{ content }}
