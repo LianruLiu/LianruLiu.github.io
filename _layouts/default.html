@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
 
+  <!-- Google Analytics (GA4) — private pageview tracking.
+       Replace G-XXXXXXXXXX below with your own GA4 Measurement ID.
+       Pageviews are NOT shown anywhere on the site; you check them
+       privately by logging into https://analytics.google.com -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
   <style>
     :root {
       --bg: #f4f4f2;
@@ -377,6 +389,158 @@
   background: #f7f7f7;
   text-transform: uppercase;
 }
+
+  /* ===== Table of Contents ===== */
+  .toc-box {
+    border: 1px solid var(--border);
+    background: #fafafa;
+    padding: 22px 26px;
+    margin-bottom: 40px;
+  }
+
+  .toc-title {
+    font-family: "Courier New", monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 12px;
+  }
+
+  .toc-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .toc-box li {
+    margin: 7px 0;
+  }
+
+  .toc-box a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.92rem;
+    line-height: 1.5;
+  }
+
+  .toc-box a:hover {
+    color: #111;
+    text-decoration: underline;
+  }
+
+  .toc-h3 {
+    margin-left: 20px;
+  }
+
+  .toc-h3 a {
+    font-size: 0.85rem;
+    color: #555;
+  }
+
+  /* ===== Tag pills ===== */
+  .tag-list {
+    margin: 14px 0 0;
+  }
+
+  .tag-pill {
+    display: inline-block;
+    border: 1px solid #111;
+    padding: 3px 9px;
+    margin: 3px 6px 3px 0;
+    font-family: "Courier New", monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #333;
+    background: #f7f7f7;
+    text-decoration: none;
+    transition: all 0.15s ease;
+  }
+
+  .tag-pill:hover {
+    background: #111;
+    color: #fff;
+  }
+
+  .category-pill {
+    display: inline-block;
+    border: 1px solid #111;
+    padding: 2px 8px;
+    margin-right: 6px;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .category-pill:hover {
+    background: #111;
+    color: #fff;
+  }
+
+  /* ===== Word count / reading time chip ===== */
+  .meta-extra {
+    color: var(--muted);
+  }
+
+  /* ===== Tags / Categories archive pages ===== */
+  .tag-cloud {
+    margin: 24px 0 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .archive-group {
+    margin-bottom: 44px;
+  }
+
+  .archive-group-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    border-bottom: 1px solid #111;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+  }
+
+  .archive-count {
+    font-weight: 400;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+
+  .archive-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .archive-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    padding: 9px 0;
+    border-bottom: 1px dashed #ddd;
+  }
+
+  .archive-list a {
+    color: #111;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+
+  .archive-list a:hover {
+    text-decoration: underline;
+  }
+
+  .archive-date {
+    font-family: "Courier New", monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
   </style>
 </head>
 
@@ -390,6 +554,8 @@
 
     <nav class="nav-menu">
       <a href="{{ '/' | relative_url }}">Index</a>
+      <a href="{{ '/tags/' | relative_url }}">Tags</a>
+      <a href="{{ '/categories/' | relative_url }}">Categories</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
     </nav>
   </header>
@@ -435,11 +601,57 @@
       }
     }
 
+    function buildTOC() {
+      const tocList = document.getElementById('toc-list');
+      const tocBox = document.getElementById('toc');
+      const content = document.querySelector('.article-content');
+      if (!tocList || !tocBox || !content) return;
+
+      const headings = content.querySelectorAll('h2, h3');
+
+      if (headings.length < 2) {
+        tocBox.style.display = 'none';
+        return;
+      }
+
+      let usedIds = {};
+
+      headings.forEach(function (heading, i) {
+        if (!heading.id) {
+          let slug = heading.textContent
+            .toLowerCase()
+            .trim()
+            .replace(/[^\w\u4e00-\u9fa5\s-]/g, '')
+            .replace(/\s+/g, '-');
+          if (!slug) slug = 'section-' + i;
+          if (usedIds[slug] !== undefined) {
+            usedIds[slug] += 1;
+            slug = slug + '-' + usedIds[slug];
+          } else {
+            usedIds[slug] = 0;
+          }
+          heading.id = slug;
+        }
+
+        const li = document.createElement('li');
+        if (heading.tagName === 'H3') li.className = 'toc-h3';
+
+        const a = document.createElement('a');
+        a.href = '#' + heading.id;
+        a.textContent = heading.textContent;
+
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+    }
+
     document.addEventListener('DOMContentLoaded', function () {
+      buildTOC();
+
       const cards = document.querySelectorAll('.post-card');
 
       cards.forEach(card => {
-        const link = card.querySelector('a');
+        const link = card.querySelector('.post-title a');
 
         if (link) {
           card.addEventListener('click', function () {
