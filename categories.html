@@ -1,0 +1,36 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+
+<div class="intro-box">
+  <h1 style="font-size:2rem; margin-bottom:10px;">Categories</h1>
+  <div class="intro-quote" style="margin-top:14px;">
+    Browse all essays grouped by category.
+  </div>
+</div>
+
+<div class="tag-cloud">
+  {% assign cats = site.categories | sort %}
+  {% for cat in cats %}
+    <a href="#{{ cat[0] | slugify }}" class="tag-pill">{{ cat[0] }} ({{ cat[1] | size }})</a>
+  {% endfor %}
+</div>
+
+{% for cat in cats %}
+  <div class="archive-group" id="{{ cat[0] | slugify }}">
+    <div class="archive-group-title">
+      {{ cat[0] }} <span class="archive-count">({{ cat[1] | size }} posts)</span>
+    </div>
+    <ul class="archive-list">
+      {% assign posts = cat[1] | sort: "date" | reverse %}
+      {% for post in posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="archive-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
