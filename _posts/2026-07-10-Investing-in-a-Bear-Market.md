@@ -3,7 +3,7 @@ layout: post
 title: "Investing in a Bear Market"
 date: 2026-07-10
 categories: [Investment, Psychology]
-tags: [bear-market, RSI, VIX, SPX, QQQ, FOMO, sector-analysis, macro, investment-discipline, contrarian]
+tags: [sector-analysis, macro, investment]
 ---
 
 Bear markets are not primarily a financial problem. They are a psychological one. The prices falling on your screen are real, but the decisions that destroy the most capital in a bear market are not caused by the decline itself — they are caused by the responses to it: the panic selling at the bottom, the premature re-entry chasing a dead-cat bounce, the capitulation into whatever narrative Wall Street is selling that week. The investors who come out of bear markets in the strongest position are almost never the ones who made the cleverest tactical moves. They are the ones who made the fewest mistakes.
