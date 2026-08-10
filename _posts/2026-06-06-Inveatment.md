@@ -3,7 +3,7 @@ layout: post
 title: "Reading the Selloff: Liquidity, Narrative, and Who Actually Benefits"
 date: 2026-06-06
 categories: [Markets, Investment]
-tags: [S&P500, Nasdaq, SpaceX-IPO, nonfarm-payrolls, Kevin-Warsh, market-structure, liquidity, capital-markets]
+tags: [market-structure, liquidity, capital-markets]
 ---
 
 Markets sold off sharply this week. The Nasdaq fell roughly 4.18%, chip stocks led the decline, and leveraged accounts across the board took serious damage. On the surface, the trigger was clear enough: nonfarm payrolls came in at 172,000 against an expectation of 88,000 — nearly double consensus — and the hawkish read on that data, combined with signals from incoming Fed Chair Kevin Warsh, sent rate-hike probabilities surging. Traders increased their odds for rate hikes this year after the data, with a quarter-point hike now being fully priced in by year-end according to the CME FedWatch tool.
