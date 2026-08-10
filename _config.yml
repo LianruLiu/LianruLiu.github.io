@@ -1,0 +1,7 @@
+title: Lianru's Blog
+description: Thoughts on Economics, Philosophy, Wealth and Life
+author: Lianru Liu
+theme: minima
+
+plugins:
+  - jekyll-feed
