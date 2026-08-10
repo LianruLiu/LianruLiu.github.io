@@ -2,6 +2,13 @@ title: Lianru's Blog
 description: Thoughts on Economics, Philosophy, Wealth and Life
 author: Lianru Liu
 theme: minima
+url: "https://lianruliu.github.io"
+
+paginate: 8
+paginate_path: "/page:num/"
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
