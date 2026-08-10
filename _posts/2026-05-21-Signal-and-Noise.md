@@ -3,7 +3,7 @@ layout: post
 title: "Signal and Noise: How Information Moves, Mutates, and Manipulates"
 date: 2026-05-21
 categories: [Media, Behavioural Economics, Political Theory]
-tags: [information-theory, media, noise, propaganda, behavioural-economics, Shannon, Barthes, attention-economy, framing]
+tags: [information-theory, behavioural-economics, attention-economy]
 ---
 
 In 1948, Claude Shannon published a paper that would quietly restructure how we think about communication. His central move was elegant and radical at once: he separated **information** from **meaning**. A message, in Shannon's framework, could be measured, compressed, and transmitted without anyone asking what it *meant*. Information became a quantity — something you could count in bits, optimize across a channel, and verify against the original.
