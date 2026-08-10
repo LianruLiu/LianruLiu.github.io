@@ -7,12 +7,11 @@ title: LIANRU ARCHIVE
   <h1 style="font-size:2.4rem; margin-bottom:10px;">LIANRU LIU</h1>
 
   <div class="post-meta">
-    ECONOMICS · FINANCE · INVESTMENT · BUSINESS · TECHNOLOGY
+    Economics · Investment · Finance · Technology
   </div>
 
   <div class="intro-quote" style="margin-top:22px;">
-        A personal research archive on economics, financial markets,
-        investment strategies, business analysis, and emerging technologies.
+    A public archive of ideas on economics, wealth, technology, discipline, and personal development.
   </div>
 </div>
 
@@ -34,7 +33,10 @@ title: LIANRU ARCHIVE
       <div class="post-meta">
         {{ post.date | date: "%Y.%m.%d" }}
         {% if post.categories %}
-          · {{ post.categories | join: " / " }}
+          ·
+          {% for cat in post.categories %}
+            <a href="{{ '/categories/' | relative_url }}#{{ cat | slugify }}" class="category-pill" onclick="event.stopPropagation()">{{ cat }}</a>
+          {% endfor %}
         {% endif %}
       </div>
 
@@ -45,6 +47,14 @@ title: LIANRU ARCHIVE
       <p class="post-excerpt">
         {{ post.excerpt | strip_html | truncate: 150 }}
       </p>
+
+      {% if post.tags %}
+      <div class="tag-list">
+        {% for tag in post.tags %}
+          <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="tag-pill" onclick="event.stopPropagation()">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
     </article>
   {% endfor %}
 </div>
