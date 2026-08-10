@@ -3,7 +3,7 @@ layout: post
 title: "The Hardware Layer Nobody Talks About: CPO, MLCC, and PCB as the Backbone of the AI Buildout"
 date: 2026-06-09
 categories: [Technology, Investment, Industry Analysis]
-tags: [CPO, MLCC, PCB, AI-infrastructure, Murata, TDK, Yageo, TTM-Technologies, Tripod, supply-chain, semiconductor]
+tags: [CPO, MLCC, PCB, semiconductor]
 ---
 
 When investors discuss the AI infrastructure buildout, the conversation almost always centers on the same names: Nvidia for GPUs, TSMC for leading-edge fabrication, hyperscalers for capital expenditure commitments. These are legitimate focal points. But they represent the visible apex of a much deeper supply chain — one that extends downward through optical interconnects, passive components, and circuit boards that are just as indispensable to AI compute as the chips themselves.
