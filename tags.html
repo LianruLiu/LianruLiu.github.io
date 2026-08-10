@@ -1,0 +1,36 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<div class="intro-box">
+  <h1 style="font-size:2rem; margin-bottom:10px;">Tags</h1>
+  <div class="intro-quote" style="margin-top:14px;">
+    Browse all essays grouped by tag.
+  </div>
+</div>
+
+<div class="tag-cloud">
+  {% assign tags = site.tags | sort %}
+  {% for tag in tags %}
+    <a href="#{{ tag[0] | slugify }}" class="tag-pill">{{ tag[0] }} ({{ tag[1] | size }})</a>
+  {% endfor %}
+</div>
+
+{% for tag in tags %}
+  <div class="archive-group" id="{{ tag[0] | slugify }}">
+    <div class="archive-group-title">
+      {{ tag[0] }} <span class="archive-count">({{ tag[1] | size }} posts)</span>
+    </div>
+    <ul class="archive-list">
+      {% assign posts = tag[1] | sort: "date" | reverse %}
+      {% for post in posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="archive-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
