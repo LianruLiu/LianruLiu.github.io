@@ -3,7 +3,7 @@ layout: post
 title: "How I Think About Investing: A Framework Built From First Principles and Hard Lessons"
 date: 2026-06-01
 categories: [Investment]
-tags: [investment, value-investing, industry-analysis, FOMO, portfolio-construction, behavioural-finance]
+tags: [investment, portfolio-construction, behavioural-finance]
 ---
 
 I did not arrive at my investment framework through theory. I arrived at it through a series of mistakes that were expensive enough to be instructive and early enough to be corrective. The pattern, when I eventually traced it, was consistent: I lost money when I moved before I understood, and I made money when I waited until I did. The framework I use now is built around that observation — extended, stress-tested, and made into a set of principles I try not to violate.
