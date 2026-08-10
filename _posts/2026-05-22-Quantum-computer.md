@@ -3,7 +3,7 @@ layout: post
 title: "Quantum Computing, new investment opportunities"
 date: 2026-05-22
 categories: [Technology, Investment]
-tags: [quantum-computing, IBM, IonQ, Google, Microsoft, qubit, investment, infrastructure, deep-tech]
+tags: [quantum-computing, infrastructure, deep-tech]
 ---
 
 In 2012, most enterprise technology buyers thought cloud computing was an interesting experiment for startups. The idea that a serious company would run its core workloads on someone else's servers seemed, to many, like a category error. Amazon Web Services had been quietly building infrastructure for six years. Microsoft Azure had been live for three. The revolution was already underway — it just wasn't visible yet to the people who would eventually depend on it most.
