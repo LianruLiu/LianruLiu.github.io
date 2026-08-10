@@ -3,7 +3,7 @@ layout: post
 title: "The Wrong Debate: Why Debt Arithmetic Matters More Than Inflation Narrative Right Now"
 date: 2026-06-07
 categories: [Macro, Federal Reserve]
-tags: [US-debt, inflation, Kevin-Warsh, FOMC, rate-hike, fiscal-policy, Treasury, monetary-policy]
+tags: [US-debt, inflatio, monetary-policy]
 ---
 
 The dominant narrative in financial markets right now runs roughly as follows: inflation is back, the jobs market is running hot, Kevin Warsh is a hawk by temperament and voting record, and therefore rate hikes are coming. After the May nonfarm payrolls print landed at 172,000 against an expectation of 88,000, traders rapidly repriced — a quarter-point rate hike is now being fully priced in by the end of the year according to the CME FedWatch tool.
