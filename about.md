@@ -58,13 +58,4 @@ https://github.com/lianruliu
 
 </div>
 
-</div>
-Email:  
-lianruliu2001@gmail.com
 
-GitHub:  
-https://github.com/lianruliu
-
-</div>
-
-</div>
