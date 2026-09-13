@@ -159,6 +159,20 @@
   box-shadow: none;
 }
 
+.post-card {
+  background: var(--card);
+  border: 1px solid #111;
+  padding: 30px 32px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.post-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #111;
+}
+
 .post-meta {
   font-family: "Courier New", monospace;
   font-size: 0.72rem;
@@ -172,88 +186,17 @@
   gap: 8px;
 }
 
-.post-list {
-  margin-top: 8px;
-}
-
-.year-label {
-  font-size: 4.5rem;
+.post-title {
+  font-size: 1.5rem;
+  line-height: 1.4;
   font-weight: 800;
-  line-height: 1;
-  color: #ececec;
-  margin: 48px 0 4px;
-  user-select: none;
+  letter-spacing: -0.005em;
+  margin-bottom: 10px;
 }
 
-.year-label:first-child {
-  margin-top: 0;
-}
-
-.post-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 16px 0;
-  border-bottom: 1px solid #e6e6e6;
-  cursor: pointer;
-}
-
-.post-row:first-of-type {
-  border-top: 1px solid #e6e6e6;
-}
-
-.post-row-left {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  flex-wrap: wrap;
-  min-width: 0;
-}
-
-.post-row-tag {
-  flex-shrink: 0;
-  font-family: "Courier New", monospace;
-  font-size: 0.62rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #888;
-  border: 1px solid #ccc;
-  padding: 2px 6px;
-}
-
-.post-row-title {
-  font-size: 1.05rem;
-  font-weight: 600;
+.post-title a {
   color: #111;
   text-decoration: none;
-}
-
-.post-row:hover .post-row-title {
-  color: #666;
-}
-
-.post-row-date {
-  flex-shrink: 0;
-  font-family: "Courier New", monospace;
-  font-size: 0.75rem;
-  color: #999;
-  white-space: nowrap;
-}
-
-.year-label {
-  font-size: 3rem;
-  margin: 34px 0 2px;
-}
-
-.post-row {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 4px;
-}
-
-.post-row-title {
-  font-size: 0.98rem;
 }
 
 .post-excerpt {
@@ -265,11 +208,6 @@
 
 .post-card .tag-list {
   margin-top: 16px;
-}
-
-.intro-box {
-  padding-bottom: 22px;
-  margin-bottom: 28px;
 }
 
     .article {
@@ -725,7 +663,7 @@
 
   <script>
     function filterPosts() {
-      const input = document.getElementById('search-input');
+      const posts = document.querySelectorAll('.post-card');;
       if (!input) return;
 
       const query = input.value.toLowerCase();
@@ -737,7 +675,7 @@
         const text = post.innerText.toLowerCase();
 
         if (text.includes(query)) {
-          post.style.display = 'flex';
+          post.style.display = 'block';
           count++;
         } else {
           post.style.display = 'none';
@@ -793,12 +731,21 @@
       });
     }
 
-    document.addEventListener('DOMContentLoaded', function () {
-      buildTOC();
+document.addEventListener('DOMContentLoaded', function () {
+  buildTOC();
 
-      const cards = document.querySelectorAll('.post-card');
+  const cards = document.querySelectorAll('.post-card');
 
-    });
+  cards.forEach(card => {
+    const link = card.querySelector('.post-title a');
+
+    if (link) {
+      card.addEventListener('click', function () {
+        window.location.href = link.href;
+      });
+    }
+  });
+});
   </script>
 </body>
 </html>
