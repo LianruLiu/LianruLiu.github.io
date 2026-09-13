@@ -48,13 +48,13 @@
     }
 
     header {
-      background: #050505;
-      color: #fff;
+      background: #c9c9c9;
+      color: #111;
       padding: 18px 48px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid #333;
+      border-bottom: 1px solid #a8a8a8;
     }
 
     .logo {
@@ -67,17 +67,18 @@
     .logo span {
       background: #fff;
       color: #000;
+      border: 1px solid #111;
       padding: 2px 6px;
       margin-right: 6px;
     }
 
     .logo a {
-      color: #fff;
+      color: #111;
       text-decoration: none;
     }
 
     .nav-menu a {
-      color: #ccc;
+      color: #444;
       text-decoration: none;
       margin-left: 24px;
       font-family: "Courier New", monospace;
@@ -87,7 +88,7 @@
     }
 
     .nav-menu a:hover {
-      color: #fff;
+      color: #000;
     }
 
     .container {
@@ -98,117 +99,124 @@
       flex: 1;
     }
 
-.intro-box {
-  border: none;
-  background: transparent;
-  padding: 0 0 24px;
-  margin-bottom: 36px;
-  box-shadow: none;
-}
+    .intro-box {
+      border: none;
+      background: transparent;
+      padding: 0 0 24px;
+      margin-bottom: 36px;
+      box-shadow: none;
+    }
 
-.article h1 {
-  font-size: 2.35rem;
-  line-height: 1.25;
-  font-weight: 900;
-  margin-bottom: 28px;
-}
+    .intro-box h1 {
+      letter-spacing: -0.01em;
+      font-weight: 900;
+    }
 
-.intro-quote {
-  font-family: "Courier New", monospace;
-  font-size: 0.85rem;
-  color: #444;
-  border-left: 3px solid #111;
-  padding-left: 16px;
-  max-width: 560px;
-  line-height: 1.75;
-}
+    .intro-box h2 {
+      font-size: 1.2rem;
+      letter-spacing: 0.04em;
+      margin-bottom: 18px;
+    }
 
-.section-title {
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: var(--muted);
-  margin: 0 0 22px;
-  padding-bottom: 0;
-  border-bottom: none;
-}
+    .intro-quote {
+      font-family: "Courier New", monospace;
+      font-size: 0.85rem;
+      color: #444;
+      border-left: 3px solid #111;
+      padding-left: 16px;
+      max-width: 560px;
+      line-height: 1.75;
+    }
 
-.search-wrapper {
-  margin: 0 0 40px;
-}
+    .section-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin: 0 0 22px;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
 
-.search-input {
-  width: 100%;
-  padding: 10px 2px;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  background: transparent;
-  font-family: "Courier New", monospace;
-  font-size: 0.85rem;
-  outline: none;
-  transition: border-color 0.15s ease;
-}
+    .search-wrapper {
+      margin: 0 0 40px;
+    }
 
-.search-input::placeholder {
-  color: #999;
-}
+    .search-input {
+      width: 100%;
+      padding: 10px 2px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background: transparent;
+      font-family: "Courier New", monospace;
+      font-size: 0.85rem;
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
 
-.search-input:focus {
-  border-bottom: 1px solid #111;
-  box-shadow: none;
-}
+    .search-input::placeholder {
+      color: #999;
+    }
 
-.post-card {
-  background: var(--card);
-  border: 1px solid #111;
-  padding: 30px 32px;
-  margin-bottom: 24px;
-  cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
+    .search-input:focus {
+      border-bottom: 1px solid #111;
+      box-shadow: none;
+    }
 
-.post-card:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 #111;
-}
+    .post-meta {
+      font-family: "Courier New", monospace;
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
 
-.post-meta {
-  font-family: "Courier New", monospace;
-  font-size: 0.72rem;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 14px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-}
+    .post-card {
+      background: var(--card);
+      border: 1px solid #111;
+      padding: 30px 32px;
+      margin-bottom: 24px;
+      cursor: pointer;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
 
-.post-title {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  font-weight: 800;
-  letter-spacing: -0.005em;
-  margin-bottom: 10px;
-}
+    .post-card:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0 #111;
+    }
 
-.post-title a {
-  color: #111;
-  text-decoration: none;
-}
+    .post-title {
+      font-size: 1.28rem;
+      line-height: 1.4;
+      font-weight: 800;
+      letter-spacing: -0.005em;
+      margin-bottom: 10px;
+    }
 
-.post-excerpt {
-  color: #555;
-  font-size: 0.95rem;
-  line-height: 1.65;
-  max-width: 680px;
-}
+    .post-title a,
+    .post-title a:visited,
+    .post-title a:hover,
+    .post-title a:active {
+      color: #111 !important;
+      text-decoration: none !important;
+    }
 
-.post-card .tag-list {
-  margin-top: 16px;
-}
+    .post-excerpt {
+      color: #555;
+      font-size: 0.95rem;
+      line-height: 1.65;
+      max-width: 680px;
+    }
+
+    .post-card .tag-list {
+      margin-top: 16px;
+    }
 
     .article {
       max-width: 760px;
@@ -234,9 +242,7 @@
       font-size: 2.35rem;
       line-height: 1.25;
       font-weight: 900;
-      margin-bottom: 18px;
-      padding-bottom: 22px;
-      border-bottom: 3px solid #111;
+      margin-bottom: 28px;
     }
 
     .article .post-meta {
@@ -355,8 +361,8 @@
       }
 
       .intro-box {
-        padding: 26px;
-        box-shadow: 5px 5px 0 #111;
+        padding-bottom: 22px;
+        margin-bottom: 28px;
       }
 
       .article {
@@ -369,7 +375,7 @@
       }
 
       .post-title {
-        font-size: 1.28rem;
+        font-size: 1.1rem;
       }
     }
     /* ===== Heading Fix ===== */
@@ -663,11 +669,11 @@
 
   <script>
     function filterPosts() {
-      const posts = document.querySelectorAll('.post-card');;
+      const input = document.getElementById('search-input');
       if (!input) return;
 
       const query = input.value.toLowerCase();
-      const posts = document.querySelectorAll('.post-row');
+      const posts = document.querySelectorAll('.post-card');
       const noResults = document.getElementById('no-results');
       let count = 0;
 
@@ -731,21 +737,21 @@
       });
     }
 
-document.addEventListener('DOMContentLoaded', function () {
-  buildTOC();
+    document.addEventListener('DOMContentLoaded', function () {
+      buildTOC();
 
-  const cards = document.querySelectorAll('.post-card');
+      const cards = document.querySelectorAll('.post-card');
 
-  cards.forEach(card => {
-    const link = card.querySelector('.post-title a');
+      cards.forEach(card => {
+        const link = card.querySelector('.post-title a');
 
-    if (link) {
-      card.addEventListener('click', function () {
-        window.location.href = link.href;
+        if (link) {
+          card.addEventListener('click', function () {
+            window.location.href = link.href;
+          });
+        }
       });
-    }
-  });
-});
+    });
   </script>
 </body>
 </html>
