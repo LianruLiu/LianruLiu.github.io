@@ -120,15 +120,20 @@
       margin-bottom: 18px;
     }
 
-    .hero-decor {
+    .hero-art {
       position: absolute;
-      top: -30px;
+      top: -20px;
       right: 0;
-      width: 200px;
-      height: 130px;
-      opacity: 0.5;
+      width: 300px;
       pointer-events: none;
       z-index: 0;
+    }
+
+    .hero-decor {
+      display: block;
+      width: 100%;
+      height: auto;
+      opacity: 0.75;
     }
 
     .hero-poem {
@@ -138,8 +143,13 @@
       font-size: 0.8rem;
       color: #bbb;
       text-transform: lowercase;
-      margin-top: 14px;
+      text-align: right;
+      margin-top: 8px;
       line-height: 1.8;
+    }
+
+    .hero-poem-mobile {
+      display: none;
     }
 
     .intro-quote {
@@ -389,8 +399,19 @@
         margin-bottom: 28px;
       }
 
-      .hero-decor {
+      .hero-art {
         display: none;
+      }
+
+      .hero-poem-mobile {
+        display: block;
+        font-family: Georgia, "Noto Serif SC", serif;
+        font-style: italic;
+        font-size: 0.78rem;
+        color: #bbb;
+        text-transform: lowercase;
+        margin-top: 10px;
+        line-height: 1.8;
       }
 
       .article {
