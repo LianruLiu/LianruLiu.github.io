@@ -159,20 +159,6 @@
   box-shadow: none;
 }
 
-.post-card {
-  background: var(--card);
-  border: 1px solid #111;
-  padding: 30px 32px;
-  margin-bottom: 24px;
-  cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.post-card:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 #111;
-}
-
 .post-meta {
   font-family: "Courier New", monospace;
   font-size: 0.72rem;
@@ -184,6 +170,75 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 8px;
+}
+
+.post-list {
+  margin-top: 8px;
+}
+
+.year-label {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #ececec;
+  margin: 48px 0 4px;
+  user-select: none;
+}
+
+.year-label:first-child {
+  margin-top: 0;
+}
+
+.post-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+
+.post-row:first-of-type {
+  border-top: 1px solid #e6e6e6;
+}
+
+.post-row-left {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.post-row-tag {
+  flex-shrink: 0;
+  font-family: "Courier New", monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #888;
+  border: 1px solid #ccc;
+  padding: 2px 6px;
+}
+
+.post-row-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #111;
+  text-decoration: none;
+}
+
+.post-row:hover .post-row-title {
+  color: #666;
+}
+
+.post-row-date {
+  flex-shrink: 0;
+  font-family: "Courier New", monospace;
+  font-size: 0.75rem;
+  color: #999;
+  white-space: nowrap;
 }
 
 .year-label {
@@ -682,7 +737,7 @@
         const text = post.innerText.toLowerCase();
 
         if (text.includes(query)) {
-          post.style.display = 'block';
+          post.style.display = 'flex';
           count++;
         } else {
           post.style.display = 'none';
@@ -743,15 +798,6 @@
 
       const cards = document.querySelectorAll('.post-card');
 
-      cards.forEach(card => {
-        const link = card.querySelector('.post-title a');
-
-        if (link) {
-          card.addEventListener('click', function () {
-            window.location.href = link.href;
-          });
-        }
-      });
     });
   </script>
 </body>
