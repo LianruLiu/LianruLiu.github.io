@@ -186,12 +186,19 @@
   gap: 8px;
 }
 
-.post-title {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  font-weight: 800;
-  letter-spacing: -0.005em;
-  margin-bottom: 10px;
+.year-label {
+  font-size: 3rem;
+  margin: 34px 0 2px;
+}
+
+.post-row {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.post-row-title {
+  font-size: 0.98rem;
 }
 
 .post-excerpt {
@@ -667,7 +674,7 @@
       if (!input) return;
 
       const query = input.value.toLowerCase();
-      const posts = document.querySelectorAll('.post-card');
+      const posts = document.querySelectorAll('.post-row');
       const noResults = document.getElementById('no-results');
       let count = 0;
 
