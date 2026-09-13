@@ -4,6 +4,15 @@ title: Home
 ---
 
 <div class="intro-box">
+  <svg class="hero-decor" viewBox="0 0 200 130" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="168" cy="26" r="13" fill="none" stroke="#999" stroke-width="1"/>
+    <path d="M2,118 Q30,80 48,90 T78,72 Q92,62 100,70 T130,55 Q145,46 158,50 T196,40"
+          fill="none" stroke="#999" stroke-width="1" stroke-linecap="round"/>
+    <path d="M20,118 Q34,100 46,104" fill="none" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+    <path d="M60,90 Q70,78 80,82" fill="none" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+    <path d="M110,66 Q120,56 132,60" fill="none" stroke="#999" stroke-width="0.8" stroke-linecap="round"/>
+  </svg>
+
   <h1 style="font-size:2.4rem; margin-bottom:10px;">LIANRU LIU</h1>
 
   <div class="post-meta">
@@ -13,6 +22,8 @@ title: Home
   <div class="intro-quote" style="margin-top:22px;">
     A public archive of ideas on economics, wealth, technology, discipline, and personal development.
   </div>
+
+  <div class="hero-poem">zwischen immer und nie</div>
 </div>
 
 <div class="search-wrapper">
@@ -45,7 +56,7 @@ title: Home
       </h2>
 
       <p class="post-excerpt">
-        {{ post.excerpt | strip_html | truncate: 150 }}
+        {{ post.excerpt | strip_html | truncate: 90 }}
       </p>
 
       {% if post.tags %}
