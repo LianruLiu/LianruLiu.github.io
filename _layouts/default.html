@@ -48,13 +48,13 @@
     }
 
     header {
-      background: #c9c9c9;
+      background: var(--bg);
       color: #111;
       padding: 18px 48px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid #a8a8a8;
+      border-bottom: 1px solid #ddd;
     }
 
     .logo {
@@ -78,7 +78,7 @@
     }
 
     .nav-menu a {
-      color: #444;
+      color: #666;
       text-decoration: none;
       margin-left: 24px;
       font-family: "Courier New", monospace;
@@ -88,7 +88,7 @@
     }
 
     .nav-menu a:hover {
-      color: #000;
+      color: #111;
     }
 
     .container {
@@ -100,11 +100,13 @@
     }
 
     .intro-box {
+      position: relative;
       border: none;
       background: transparent;
       padding: 0 0 24px;
       margin-bottom: 36px;
       box-shadow: none;
+      overflow: visible;
     }
 
     .intro-box h1 {
@@ -116,6 +118,28 @@
       font-size: 1.2rem;
       letter-spacing: 0.04em;
       margin-bottom: 18px;
+    }
+
+    .hero-decor {
+      position: absolute;
+      top: -30px;
+      right: 0;
+      width: 200px;
+      height: 130px;
+      opacity: 0.5;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero-poem {
+      font-family: Georgia, "Noto Serif SC", serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: #bbb;
+      text-transform: lowercase;
+      margin-top: 14px;
+      line-height: 1.8;
     }
 
     .intro-quote {
@@ -180,23 +204,23 @@
     .post-card {
       background: var(--card);
       border: 1px solid #111;
-      padding: 30px 32px;
-      margin-bottom: 24px;
+      padding: 20px 22px;
+      margin-bottom: 14px;
       cursor: pointer;
       transition: transform 0.18s ease, box-shadow 0.18s ease;
     }
 
     .post-card:hover {
       transform: translate(-2px, -2px);
-      box-shadow: 6px 6px 0 #111;
+      box-shadow: 5px 5px 0 #111;
     }
 
     .post-title {
-      font-size: 1.28rem;
+      font-size: 1.05rem;
       line-height: 1.4;
       font-weight: 800;
       letter-spacing: -0.005em;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .post-title a,
@@ -209,13 +233,13 @@
 
     .post-excerpt {
       color: #555;
-      font-size: 0.95rem;
-      line-height: 1.65;
+      font-size: 0.88rem;
+      line-height: 1.6;
       max-width: 680px;
     }
 
     .post-card .tag-list {
-      margin-top: 16px;
+      margin-top: 12px;
     }
 
     .article {
@@ -365,6 +389,10 @@
         margin-bottom: 28px;
       }
 
+      .hero-decor {
+        display: none;
+      }
+
       .article {
         padding: 32px 24px;
         box-shadow: 6px 6px 0 #111;
@@ -375,7 +403,7 @@
       }
 
       .post-title {
-        font-size: 1.1rem;
+        font-size: 0.92rem;
       }
     }
     /* ===== Heading Fix ===== */
