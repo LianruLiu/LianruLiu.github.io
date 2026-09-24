@@ -3,7 +3,7 @@ layout: post
 title: "Printed MoS₂ Neurons"
 date: 2026-04-26
 categories: AI
-tags: [AI, Neuromorphic, Brain Machine Interface, Materials]
+tags: [Neuromorphic, MoS₂, Materials]
 ---
 ## The Significance of This Paper  
 While modern AI accelerators exhibit immense computational power, their energy consumption dwarfs that of the human brain.  

@@ -3,7 +3,7 @@ layout: post
 title: "One Hundred Million Dollars in 24 Hours: What Crypto Liquidations Reveal About the Market"
 date: 2026-05-10
 categories: [Finance]
-tags: [crypto, bitcoin, liquidation, leverage, volatility, speculation, derivatives]
+tags: [Crypto, Liquidation, Leverage]
 ---
 
 On May 10, according to CoinGlass data cited by Shenchao TechFlow, the cryptocurrency derivatives market liquidated $100 million in positions within a single 24-hour window. Short sellers bore the brunt — $65.55 million in short liquidations versus $34.62 million on the long side. Bitcoin accounted for $20.39 million of total liquidations; Ethereum, $14.89 million. Across all assets, 62,490 individual accounts were forcibly closed. The largest single liquidation: a $3.89 million BTC-USD position on Hyperliquid, gone in an instant.

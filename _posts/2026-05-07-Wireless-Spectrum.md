@@ -3,7 +3,7 @@ layout: post
 title: "Wireless Spectrum: The Invisible Infrastructure Powering the Modern World"
 date: 2026-05-07
 categories: [Technology]
-tags: [wireless, Investment, spectrum, 5G, satellite, AI, telecommunications, infrastructure]
+tags: [Spectrum, Telecommunications, Infrastructure]
 ---
 
 Wireless spectrum is not a technology product you can buy off a shelf. It is not a cable you can run or a server you can deploy. It is, at its most fundamental, a natural resource — a band of invisible frequencies in the electromagnetic universe that carries every signal you have ever sent or received wirelessly. Without it, there is no mobile internet, no GPS, no Wi-Fi, no Bluetooth, no radar, no satellite communication, no 5G, no Starlink, no military radio. It is the silent foundation beneath nearly every form of modern digital life.

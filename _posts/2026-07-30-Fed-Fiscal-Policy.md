@@ -3,7 +3,7 @@ layout: post
 title: "After Yesterday's FOMC: What Warsh Is Actually Doing, and Why the Debt Math Still Wins（ Rate Cuts & Quantitative Tightening）"
 date: 2026-07-30
 categories: [Macroeconomics, Investment]
-tags: [Interest Rates, QT, Inflation, equity-market]
+tags: [Federal Reserve, Interest Rates, Fiscal Policy]
 ---
 
 Yesterday's FOMC meeting produced a 9-3 vote to hold rates at 3.5–3.75%. Three dissenters — Cleveland's Beth Hammack, Minneapolis's Neel Kashkari, and Dallas's Lorie Logan — voted to hike 25 basis points. The Dow closed down over 1,100 points, its worst day in more than a year. The 30-year Treasury yield hit its highest level since 2007.

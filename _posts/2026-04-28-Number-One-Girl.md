@@ -3,7 +3,7 @@ layout: post
 title: "Number One Girl: Does a Female Top Student Lift Other Girls’ Performance?"
 date: 2026-04-28
 categories: Economics
-tags: [Economics, Education, Gender, Peer Effects, Role Models, Human Capital]
+tags: [Education, Gender, Peer Effects]
 ---
 ## Introduction: Rankings Are More Than Numbers  
 In many classrooms, academic ranking is not just a score summary—it is a visible social hierarchy.

@@ -3,7 +3,7 @@ layout: post
 title: "Slow Science: Why Publishing Less May Save Research"
 date: 2026-04-20
 categories: Science
-tags: [Science, Academia, Research, Publishing, Meta-Research]
+tags: [Academia, Publishing, Meta-Research]
 ---
 “90% of scientific research is crap.”  
 This sounds like an attack from outside academia. It is not.  

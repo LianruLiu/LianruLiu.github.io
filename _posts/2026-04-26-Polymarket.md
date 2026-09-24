@@ -3,7 +3,7 @@ layout: post
 title: "Polymarket, Paris Weather, and the Incentive to Manipulate Reality"
 date: 2026-04-26
 categories: Economics
-tags: [Markets, Finance, Risk, Incentives, Polymarket]
+tags: [Polymarket, Prediction Markets, Incentives]
 ---
 
 # Polymarket, Paris Weather, and the Incentive to Manipulate Reality

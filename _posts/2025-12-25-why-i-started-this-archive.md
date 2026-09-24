@@ -3,6 +3,7 @@ layout: post
 title: "Why I Started This Archive"
 date: 2025-12-25
 categories: Philosophy
+tags: [Writing, Thinking, Archive]
 ---
 
 This archive was created for one simple reason:

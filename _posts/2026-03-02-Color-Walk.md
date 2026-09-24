@@ -3,7 +3,7 @@ layout: post
 title: "Color Walk: A Simple Attention Reset in the Age of Cognitive Overload"
 date: 2026-03-02
 categories: Psychology
-tags: [Positive Psychology, Attention, Anxiety, Mindfulness, Cognitive Control]
+tags: [Attention, Mindfulness, Positive Psychology]
 ---
 ## Introduction: A Minimal Intervention With Disproportionate Impact
 
