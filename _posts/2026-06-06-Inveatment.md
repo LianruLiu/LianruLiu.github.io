@@ -2,7 +2,7 @@
 layout: post
 title: "Reading the Selloff: Liquidity, Narrative, and Who Actually Benefits"
 date: 2026-06-06
-categories: [Markets, Investment]
+categories: Investment
 tags: [Market Structure, Liquidity, Capital Markets]
 ---
 

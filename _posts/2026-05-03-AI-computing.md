@@ -2,7 +2,7 @@
 layout: post
 title: "Space-Based AI Computing vs. Terrestrial AI Computing: Investment opportunities"
 date: 2026-05-03
-categories: Technology
+categories: Investment
 tags: [AI, Space, Infrastructure]
 ---
 ## The Future of AI and Wireless communication Is No Longer Just About Models

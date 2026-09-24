@@ -2,7 +2,7 @@
 layout: post
 title: "Signal and Noise: How Information Moves, Mutates, and Manipulates"
 date: 2026-05-21
-categories: [Media, Behavioural Economics, Political Theory]
+categories: Economics
 tags: [Information Theory, Attention Economy, Behavioural Economics]
 ---
 

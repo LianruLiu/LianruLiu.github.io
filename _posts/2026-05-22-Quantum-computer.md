@@ -2,7 +2,7 @@
 layout: post
 title: "Quantum Computing, new investment opportunities"
 date: 2026-05-22
-categories: [Technology, Investment]
+categories: Investment
 tags: [Quantum Computing, Deep Tech, Infrastructure]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "The Wrong Debate: Why Debt Arithmetic Matters More Than Inflation Narrative Right Now"
 date: 2026-06-07
-categories: [Macro, Federal Reserve]
+categories: Macro
 tags: [US Debt, Inflation, Monetary Policy]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Wireless Spectrum: The Invisible Infrastructure Powering the Modern World"
 date: 2026-05-07
-categories: [Technology]
+categories: Technology
 tags: [Spectrum, Telecommunications, Infrastructure]
 ---
 

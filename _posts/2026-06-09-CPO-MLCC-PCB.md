@@ -2,7 +2,7 @@
 layout: post
 title: "The Hardware Layer Nobody Talks About: CPO, MLCC, and PCB as the Backbone of the AI Buildout"
 date: 2026-06-09
-categories: [Technology, Investment, Industry Analysis]
+categories: Technology
 tags: [CPO, MLCC, PCB]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "How I Think About Investing: A Framework Built From First Principles and Hard Lessons"
 date: 2026-06-01
-categories: [Investment]
+categories: Investment
 tags: [Investment, Portfolio Construction, Behavioural Finance]
 ---
 

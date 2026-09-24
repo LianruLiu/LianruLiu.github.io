@@ -2,7 +2,7 @@
 layout: post
 title: "Investing in a Bear Market"
 date: 2026-07-10
-categories: [Investment, Psychology]
+categories: Psychology
 tags: [Bear Market, Investment, Psychology]
 ---
 

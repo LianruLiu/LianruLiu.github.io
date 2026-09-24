@@ -2,7 +2,7 @@
 layout: post
 title: "One Hundred Million Dollars in 24 Hours: What Crypto Liquidations Reveal About the Market"
 date: 2026-05-10
-categories: [Finance]
+categories: Finance
 tags: [Crypto, Liquidation, Leverage]
 ---
 

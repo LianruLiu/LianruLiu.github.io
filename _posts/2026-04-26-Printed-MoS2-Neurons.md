@@ -2,7 +2,7 @@
 layout: post
 title: "Printed MoS₂ Neurons"
 date: 2026-04-26
-categories: AI
+categories: Technology
 tags: [Neuromorphic, MoS₂, Materials]
 ---
 ## The Significance of This Paper  
