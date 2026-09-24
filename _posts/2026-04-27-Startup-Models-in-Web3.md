@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "The Two Most Valuable Startup Models in Web3 Today"
-date: 2026-4-27
+date: 2026-04-27
 categories: Finance
-tags: [Markets, Finance, stratup, Web3]
+tags: [Markets, Finance, startup, Web3]
 ---
 ## Introduction: Most Founders Build Products, Few Build Market Structure
 
