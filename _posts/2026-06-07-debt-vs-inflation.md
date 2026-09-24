@@ -6,13 +6,13 @@ categories: Macro
 tags: [US Debt, Inflation, Monetary Policy]
 ---
 
-The dominant narrative in financial markets right now runs roughly as follows: inflation is back, the jobs market is running hot, Kevin Warsh is a hawk by temperament and voting record, and therefore rate hikes are coming. After the May nonfarm payrolls print landed at 172,000 against an expectation of 88,000, traders rapidly repriced — a quarter-point rate hike is now being fully priced in by the end of the year according to the CME FedWatch tool.
+The market narrative right now goes like this: inflation is back, the jobs market is running hot, Kevin Warsh is a hawk by temperament and record — so rate hikes are coming. After May payrolls printed 172,000 against 88,000 expected, traders repriced fast: a quarter-point hike fully priced by year-end, per the CME FedWatch tool.
 
-This narrative is coherent. It is also, in my view, wrong in its priorities — and possibly wrong in its conclusion.
+Coherent story. Wrong priorities — and possibly the wrong conclusion.
 
-The inflation problem is real but manageable. The debt problem is structural and compounding. Confusing which one is the binding constraint on Fed policy leads to badly miscalibrated expectations. And miscalibrated expectations are what move markets away from fair value — in both directions.
+Inflation is real but manageable. The debt problem is structural and compounding. Mistaking which one binds Fed policy is how expectations get miscalibrated. And miscalibrated expectations are what push markets away from fair value, in both directions.
 
-This is my case for why Warsh is unlikely to hike, why the inflation narrative is being amplified beyond its fundamental weight, and why the debt arithmetic should be the frame through which every monetary policy decision in 2026 is evaluated.
+My case: Warsh is unlikely to hike, the inflation narrative is running ahead of its fundamentals, and debt arithmetic is the frame every 2026 monetary decision should be read through.
 
 ---
 
@@ -20,13 +20,13 @@ This is my case for why Warsh is unlikely to hike, why the inflation narrative i
 
 Start with the data, not the narrative.
 
-There is only a 0.6% probability of the FOMC raising interest rates at the June 2026 meeting. The market is not pricing a June hike — it is pricing hawkish *communication* at the June meeting, which is a meaningfully different thing. Words are not rate moves. A dropped easing bias in the statement, a hawkish dot plot, Warsh's first press conference establishing his inflation credibility — all of these can happen without a single basis point changing.
+There's only a 0.6% probability of the FOMC hiking at the June 2026 meeting. The market isn't pricing a June hike — it's pricing hawkish *communication* in June, which is a different thing entirely. Words aren't rate moves. Dropping the easing bias, a hawkish dot plot, Warsh's first press conference establishing inflation credibility — all of that can happen without a single basis point moving.
 
-Beyond June, the picture becomes genuinely uncertain. Kalshi data shows traders believe there is a 63% probability of a rate hike before July 2027, while the probability of a 2026 rate hike on Polymarket is approximately 35%. A 35% probability for a 2026 hike means the market assigns 65% odds to no hike this year. That is not a hike consensus — it is a coin flip with a slight lean toward restraint.
+Past June, it's genuinely uncertain. Kalshi shows a 63% probability of a hike before July 2027; Polymarket puts a 2026 hike at about 35%. Thirty-five percent for a hike this year means 65% for no hike. That's not a hike consensus — it's a coin flip leaning toward restraint.
 
 "A rate hike this year seems very unlikely," says Bernard Yaros, lead US economist at Oxford Economics.
 
-The gap between market pricing and media narrative is itself instructive. Loud hawkish commentary serves certain purposes — it validates the post-payrolls selloff, it establishes Warsh's inflation-fighting credibility, it anchors long-end yields higher which reduces the Fed's need to act. But the actual probability distribution assigned by market participants to near-term hikes has remained substantially below what the narrative volume would suggest.
+The gap between market pricing and media narrative is instructive on its own. Loud hawkish commentary does work — it validates the post-payrolls selloff, burnishes Warsh's inflation-fighting credentials, anchors long-end yields higher so the Fed doesn't have to act. But the actual probability distribution for near-term hikes has stayed well below what the noise level would suggest.
 
 That gap is worth holding onto.
 
@@ -34,73 +34,71 @@ That gap is worth holding onto.
 
 ## The Inflation Problem: Real, But Not the Binding Constraint
 
-Inflation is elevated. In April, CPI surged to 3.8% year-on-year, hitting a new high since May 2023; core CPI rose to 2.8% year-on-year; PPI jumped to 6% year-on-year, its largest gain since December 2022. The energy price index rose 17.9% year-on-year, contributing over 40% to the overall CPI increase.
+Inflation is elevated. April CPI hit 3.8% year-on-year — a new high since May 2023. Core CPI rose to 2.8%; PPI jumped to 6%, its biggest gain since December 2022. The energy index rose 17.9% year-on-year, accounting for over 40% of the headline increase.
 
-That 40% figure deserves attention. When a single supply shock — in this case, energy price spikes driven by the Iran war — is responsible for nearly half of measured inflation, the appropriate policy response is different from when inflation is broad-based and demand-driven. Supply-shock inflation is not cured by rate hikes. It resolves when the supply shock resolves. Raising rates in response to energy-driven CPI does not reduce oil prices; it reduces domestic demand, increases debt service costs, and slows the investment cycle — including the AI infrastructure buildout — without addressing the root cause.
+That 40% matters. When one supply shock — energy prices, driven by the Iran war — explains nearly half of measured inflation, the policy response should differ from a broad demand-driven overshoot. Supply-shock inflation isn't cured by rate hikes; it resolves when the shock resolves. Raising rates into energy-driven CPI doesn't lower oil prices. It suppresses domestic demand, raises debt service costs, and slows the investment cycle — the AI buildout included — without touching the cause.
 
-Warsh is not unaware of this distinction. His framework incorporates trimmed-mean and underlying inflation measures precisely to avoid overreacting to supply-shock components. The question is whether FOMC communication will accurately convey that nuance or whether it will be compressed, in media transmission, into a simple "hawkish = hike" signal.
+Warsh knows the distinction. His framework leans on trimmed-mean and underlying inflation measures precisely to avoid overreacting to supply-shock components. The open question is whether FOMC communication carries that nuance, or whether media transmission compresses it into "hawkish = hike."
 
-The strong jobs number compounds the narrative problem. But here too, context matters. The sharp slowdown in immigration has pushed down what economists call the breakeven rate — the minimum number of jobs needed each month just to keep unemployment stable — from around 150,000 to roughly 85,000 today, and the Fed has flagged it could fall close to zero by the end of 2026 as immigration slows further. A 172,000 print against an 85,000 breakeven is not the same inflationary signal as 172,000 against a 150,000 breakeven. The labor market looks tighter than it is when you apply the old calibration to a structurally shifted baseline.
+The strong jobs print feeds the same problem. But context: the immigration slowdown has dragged the breakeven rate — the monthly jobs needed just to hold unemployment steady — from around 150,000 to roughly 85,000, and the Fed has flagged it could approach zero by end-2026 as immigration slows further. A 172,000 print against an 85,000 breakeven is not the same signal as 172,000 against 150,000. The labor market looks tighter than it is because everyone's still using the old calibration on a shifted baseline.
 
 ---
 
 ## The Debt Problem: Structural, Compounding, and Underweighted in the Current Debate
 
-Here is the argument I want to make directly: the United States cannot afford to raise interest rates in any sustained way, and the fiscal arithmetic is so clear that it should weigh heavily — though never explicitly — on every monetary policy decision made in the next several years.
+Here's the argument, stated directly: the United States cannot afford sustained rate hikes, and the fiscal arithmetic is clear enough that it should weigh heavily — never explicitly — on every monetary decision for the next several years.
 
-The numbers: total U.S. public debt stands above $39 trillion. Wall Street would prefer to see lower interest rates, because it would help fuel the artificial intelligence data center build-out and would make servicing the nation's more than $39 trillion in debt less costly. Interest payments on that debt are now consuming over 30% of quarterly federal tax receipts — a share that has risen every year for five years and will continue rising as existing low-rate debt matures and is refinanced at current market rates.
+The numbers: total US public debt is above $39 trillion. Interest payments now eat over 30% of quarterly federal tax receipts — a share that's risen every year for five years, and keeps rising as cheap old debt matures into current rates. Wall Street wants lower rates partly to fund the AI data center buildout, and partly because servicing $39 trillion-plus gets cheaper with every basis point.
 
-The mechanics are straightforward. Every 25 basis point increase in the average rate on $39 trillion of debt adds approximately $97.5 billion annually to interest expense — roughly $8 billion per month. A full 100 basis point hiking cycle adds nearly $400 billion per year to the deficit before any macroeconomic second-order effects are considered. That additional deficit must be financed with additional Treasury issuance, which puts upward pressure on yields, which increases borrowing costs further. The feedback loop is self-amplifying.
+The mechanics are simple. Every 25 basis points on $39 trillion adds roughly $97.5 billion a year in interest expense — about $8 billion a month. A full 100-basis-point hiking cycle adds nearly $400 billion a year to the deficit, before any second-order macro effects. That deficit gets financed with more Treasury issuance, which pressures yields higher, which raises borrowing costs further. The loop feeds itself.
 
-Now consider what a rate hike does to federal revenues. Capital gains taxes — among the most volatile and largest components of federal tax receipts in a bull market — collapse when equity prices fall. A Fed-induced equity selloff simultaneously increases debt servicing costs and reduces the tax revenues that service that debt. This is the fiscal trap: the policy instrument intended to fight inflation, applied at scale, makes the fiscal position materially worse rather than better.
+Now add what a hike does to revenues. Capital gains taxes — among the most volatile and largest receipts in a bull market — collapse when equities fall. A Fed-induced selloff raises debt service costs *and* shrinks the tax base servicing that debt, at the same time. That's the fiscal trap: the anti-inflation instrument, applied at scale, makes the fiscal position materially worse.
 
-This is not an argument that the Fed should ignore inflation. It is an argument that the *marginal cost* of rate hikes, in the current fiscal environment, is substantially higher than the standard Taylor Rule framework captures. The Fed operates under a dual mandate of price stability and maximum employment. The fiscal constraint — while officially outside the Fed's mandate — creates a third implicit objective that cannot simply be wished away by pointing to the statute.
+This isn't an argument for ignoring inflation. It's an argument that the *marginal cost* of hikes, in this fiscal environment, is far higher than a standard Taylor Rule admits. The Fed has a dual mandate — price stability, maximum employment. The fiscal constraint is officially outside the mandate, but it functions as a third implicit objective that doesn't disappear when you point at the statute.
 
-There is a reason sophisticated observers describe the current situation as **fiscal dominance in the making**: a condition in which the size of the public debt and its servicing cost effectively constrains the central bank's ability to tighten monetary policy, regardless of what inflation is doing. The Fed is not there yet — and Warsh would resist that characterization strenuously. But the arithmetic creates a gravitational pull that no amount of hawkish rhetoric fully escapes.
+There's a reason serious observers call this **fiscal dominance in the making**: public debt and its servicing cost constraining the central bank's ability to tighten, whatever inflation is doing. The Fed isn't there yet — and Warsh would reject the label forcefully. But the arithmetic exerts a gravitational pull that hawkish rhetoric doesn't escape.
 
 ---
 
 ## Why Warsh Is Unlikely to Hike — The Structural Case
 
-Warsh is a hawk in temperament. His previous FOMC voting record shows he repeatedly cautioned about lowering interest rates, even as the unemployment rate surged during the financial crisis. His stated framework emphasizes price stability and balance sheet reduction. His first press conference will be calibrated to establish credibility, not to placate markets.
+Warsh is a hawk by temperament. His FOMC voting record shows repeated warnings against cutting rates, even as unemployment surged in the financial crisis. His framework stresses price stability and balance sheet reduction. His first press conference will be about establishing credibility, not soothing markets.
 
-But hawkish communication is not the same as rate hikes. And Warsh is also an institutionally sophisticated actor who understands the fiscal context he operates in — arguably better than most of his predecessors, given his background at the intersection of monetary policy and capital markets.
+But hawkish communication isn't rate hikes. And Warsh is institutionally sophisticated enough to understand the fiscal context — arguably better than most predecessors, given his background straddling monetary policy and capital markets.
 
-Consider the specific constraints he faces at the June meeting and beyond:
+The constraints, specifically:
 
-**FOMC division.** The April 2026 FOMC meeting resulted in a vote of 8-4 to keep rates unchanged, with dissenters favoring a 25 basis point cut. Warsh inherits a committee where four members wanted to *cut* rates at the last meeting. Building a majority for a hike — in an environment where the inflation driver is primarily a supply shock — requires persuasion, not just chairmanship. He has one vote like everyone else.
+**FOMC division.** The April 2026 meeting voted 8–4 to hold, with the dissenters wanting a 25-basis-point *cut*. Warsh inherits a committee where four members wanted to ease last meeting. Building a majority for a hike — against primarily supply-shock inflation — takes persuasion, not just the chairmanship. He gets one vote like everyone else.
 
-**The balance sheet alternative.** Warsh has been explicit that he sees balance sheet reduction and rate cuts as potentially *complementary* — that a smaller balance sheet creates room for a lower policy rate. His preferred sequencing is QT first, then rate normalization downward. Hiking rates while simultaneously doing QT would tighten financial conditions from two directions simultaneously, producing an aggressive shock to debt markets and mortgage rates that goes well beyond what the inflation data justifies.
+**The balance sheet alternative.** Warsh has said explicitly that balance sheet reduction and rate cuts can be *complementary* — a smaller balance sheet making room for a lower policy rate. His sequencing is QT first, then normalization downward. Hiking while running QT tightens from both directions at once: a shock to debt and mortgage markets far beyond what the inflation data justifies.
 
-**The Trump constraint.** President Donald Trump, who nominated Warsh to the position, is expecting aggressive interest rate cuts. Warsh has institutional independence and has demonstrated willingness to diverge from political expectations. But hiking into a President publicly calling for cuts, in an election-sensitive economic environment, is a political cost that requires overwhelming economic justification — justification that supply-shock inflation at 3.8% CPI, driven 40% by energy, does not provide.
+**The Trump constraint.** President Donald Trump, who nominated Warsh, expects aggressive rate cuts. Warsh has institutional independence and a record of diverging from political expectations. But hiking into a president publicly demanding cuts, in an economy this election-sensitive, is a political cost that needs overwhelming economic justification — and 3.8% CPI driven 40% by energy doesn't supply it.
 
-**The fiscal arithmetic above.** At some level of awareness, every Fed official understands that a meaningful hiking cycle materially worsens the government's fiscal position. This does not make them subordinate to fiscal policy — but it is a consideration that responsible policymakers weight.
+**The fiscal arithmetic above.** At some level of awareness, every Fed official knows a real hiking cycle materially worsens the government's fiscal position. That doesn't subordinate monetary policy to fiscal policy — but it's a weight responsible policymakers carry.
 
-The most likely path: Warsh uses the June meeting and press conference to firmly establish his inflation-fighting credentials, drop the easing bias, and shift the dot plot to remove projected cuts. He pursues balance sheet reduction actively. He holds rates where they are for the remainder of 2026, watching whether the energy supply shock proves transitory as Middle East dynamics evolve. Rate hikes enter the range of realistic possibility only if core inflation — stripped of energy — accelerates meaningfully in 2027. That is a scenario, not a baseline.
+Most likely path: Warsh uses June to plant his inflation-fighting credentials — drops the easing bias, shifts the dot plot to remove projected cuts, pushes balance sheet reduction. Holds rates through the rest of 2026 while watching whether the energy shock proves transitory as Middle East dynamics evolve. Hikes become realistic only if *core* inflation — energy stripped out — accelerates meaningfully in 2027. That's a scenario, not the baseline.
 
 ---
 
 ## The Asymmetry in How These Two Problems Are Discussed
 
-There is a notable asymmetry in how the inflation problem and the debt problem are represented in mainstream financial commentary.
+Inflation is visible, daily, emotionally resonant. Everyone feels it at the pump and the grocery store. It creates political pressure, media coverage, and a clean villain (the Fed, "behind the curve"). The policy response — hikes — is conceptually simple and historically legible.
 
-Inflation is visible, daily, and emotionally resonant. Everyone experiences higher prices at the pump and the grocery store. It generates political pressure, media coverage, and a clear villain (the Fed for being "behind the curve"). The policy response — rate hikes — is conceptually simple and historically legible.
+Debt is abstract, slow-moving, structurally uncomfortable. No daily headlines. It demands compound interest, fiscal trajectories, long-run sustainability — abstractions that don't fit the headline format. And the policy responses are all unpopular: spend less, tax more, inflate it away, or some mix.
 
-The debt problem is abstract, slow-moving, and structurally uncomfortable. It does not generate the same daily media coverage. It requires discussing compound interest, fiscal trajectories, and the long-term sustainability of government spending at a level of abstraction that resists the headline format. The policy response is also uncomfortable: it implies either reduced spending, higher taxes, inflated-away debt, or some combination — none of which are politically popular.
+So the public debate overweights the visible problem and underweights the structural one. Not a conspiracy — just media economics. But investors who calibrate to the volume of the debate instead of the magnitude of the problems will systematically overestimate hike odds and underestimate the fiscal constraints that make sustained hikes unlikely.
 
-The result is a public debate heavily weighted toward the visible problem and systematically underweighted toward the structural one. This is not a conspiracy; it is how media economics work. But it means that investors who calibrate their expectations to the loudness of the debate rather than the magnitude of the underlying problems will consistently overestimate the probability of rate hikes and underestimate the fiscal constraints that make sustained hikes unlikely.
-
-The correct frame, in my view, is this: **inflation is the near-term noise; debt is the long-term signal.** Warsh will manage the noise carefully and credibly. But the signal will constrain the available responses throughout his tenure and beyond.
+The right frame: **inflation is the near-term noise; debt is the long-term signal.** Warsh will manage the noise carefully and credibly. The signal will constrain his options through his whole tenure and beyond.
 
 ---
 
 ## What This Means for Markets
 
-If Warsh holds rates in June — the most likely outcome — and communicates a hawkish but non-hiking stance, the market's immediate reaction will probably be a relief rally in rate-sensitive assets: long-duration tech, AI infrastructure, REITs, and growth names generally. The yield curve may steepen modestly as QT continues to work on the long end while the policy rate holds.
+If Warsh holds in June — the most likely outcome — and delivers hawkish-but-not-hiking communication, expect a relief rally in rate-sensitive assets: long-duration tech, AI infrastructure, REITs, growth broadly. The curve probably steepens modestly as QT keeps working the long end while the policy rate sits still.
 
-The conditions that drove the AI bull market — accommodative long-run rate expectations, massive capital expenditure commitments, a fiscal backstop from equity-market capital gains revenues — remain intact. The SpaceX IPO and the eventual OpenAI IPO require and reinforce those conditions. The path to new highs before the OpenAI IPO, which I outlined in the previous post, does not require rate cuts. It requires only that rate hikes be priced out — and the fiscal arithmetic described above is the most durable argument for why they should be.
+The AI bull market's drivers — accommodative long-run rate expectations, massive capex commitments, a fiscal backstop from equity-market capital gains — stay intact. The SpaceX IPO and the eventual OpenAI IPO both need those conditions and reinforce them. The path to new highs before the OpenAI IPO, which I laid out in the previous post, doesn't need rate cuts. It needs hikes priced out — and the fiscal arithmetic above is the most durable reason they should be.
 
-The risk to this view: a genuine acceleration in *core* inflation, independent of energy, that forces Warsh's hand despite the fiscal costs. If trimmed-mean CPI re-accelerates in Q3, if wage growth broadens, if the Iran situation produces a sustained second leg in energy prices — the fiscal constraint may prove insufficient to prevent a hike that the inflation data demands. That is the scenario the market is partly pricing at 35% for 2026. It is not the base case. But it is not zero, and position sizing should reflect that honestly.
+The risk to this view: genuine acceleration in *core* inflation, energy aside, that forces Warsh's hand regardless of fiscal cost. If trimmed-mean CPI re-accelerates in Q3, if wage growth broadens, if Iran produces a sustained second energy leg — the fiscal constraint may not be enough to stop a hike the data demands. The market prices that at 35% for 2026. Not the base case. Not zero either, and position sizing should say so honestly.
 
 ---
 

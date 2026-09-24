@@ -5,9 +5,9 @@ date: 2026-05-03
 categories: Investment
 tags: [AI, Space, Infrastructure]
 ---
-## The Future of AI and Wireless communication Is No Longer Just About Models
+## It's No Longer Just About Models
 
-Most people still think the AI race is mainly about models:  
+Most people still think the AI race is about models:  
 - larger parameter counts  
 - smarter reasoning  
 - better agents  
@@ -16,7 +16,7 @@ Most people still think the AI race is mainly about models:
 But beneath the software layer, a much larger competition is quietly emerging:  
 > The competition over where intelligence itself will physically exist.
 
-This is not merely a software problem.It is an infrastructure problem.
+This is not a software problem. It is an infrastructure problem.
 
 The next decade of AI may be defined not only by algorithms, but by:
 
@@ -31,9 +31,9 @@ And at the center of this transformation lies a new distinction:
 
 > **Terrestrial AI Computing** vs. **Space-Based AI Computing**
 
-## Terrestrial AI Computing: The Current AI Empire
+## Terrestrial AI Computing: The Current Empire
 
-Today’s AI world is overwhelmingly terrestrial.
+Today's AI world is overwhelmingly terrestrial.
 
 Companies such as:
 
@@ -57,7 +57,7 @@ These systems require:
 - large-scale grid infrastructure
 - hyperscale compute coordination
 
-This model has enabled the rise of:
+This model enabled the rise of:
 
 - ChatGPT
 - Gemini
@@ -66,11 +66,11 @@ This model has enabled the rise of:
 - quantitative AI models
 - industrial-scale machine learning
 
-## Why Terrestrial AI Became Dominant？
+## Why Terrestrial Won
 
-The answer is simple:
+The answer is simple, and it has two parts.
 
-### 1. Centralization Maximizes Training Efficiency
+### 1. Centralization Trains Better
 
 Large AI models require:
 
@@ -79,9 +79,9 @@ Large AI models require:
 - high bandwidth
 - low latency
 
-This is easiest to achieve in centralized clusters.
+Centralized clusters do this best.
 
-### 2. Earth Already Has the Infrastructure
+### 2. Earth Already Built the Infrastructure
 
 Terrestrial AI benefits from:
 
@@ -90,12 +90,11 @@ Terrestrial AI benefits from:
 - existing internet backbones
 - mature maintenance systems
 
-The world already spent decades building this infrastructure. AI simply inherited it.
+The world spent decades building this infrastructure. AI simply inherited it.
 
-## The Hidden Problem: AI Is Becoming a Power Monster
+## The Hidden Problem: Power
 
-The success of terrestrial AI created a new bottleneck: *_Electricity_*. Modern AI data centers consume extraordinary amounts of energy.
-Some large AI campuses now consume electricity comparable to small cities. And the problem is accelerating.
+Terrestrial AI's success created its bottleneck: *electricity*. Modern AI data centers consume extraordinary amounts of energy. Some large AI campuses now draw power comparable to small cities. And it's accelerating.
 
 More models require:
 
@@ -104,12 +103,11 @@ More models require:
 - more power density
 - more physical infrastructure
 
-This transforms AI from a software industry into an energy industry.
+AI is turning from a software industry into an energy industry.
 
 ## Cooling: The Forgotten Constraint
 
-Most people think GPUs are limited by chips.
-In reality, they are increasingly limited by heat.
+People think GPUs are chip-limited. Increasingly, they are heat-limited.
 
 Modern AI infrastructure depends heavily on:
 
@@ -118,13 +116,11 @@ Modern AI infrastructure depends heavily on:
 - industrial HVAC infrastructure
 - thermal engineering
 
-Without cooling, computation fails.
-And as AI density increases, thermal management becomes one of the defining engineering challenges of the decade.
+Without cooling, computation fails. As AI density rises, thermal management becomes one of the defining engineering challenges of the decade.
 
 ## Space-Based AI Computing: Intelligence in Orbit
 
-This is where space-based AI enters the picture.
-The core idea is radical: Move parts of AI infrastructure into Earth orbit.
+This is where space-based AI enters. The core idea is radical: move parts of AI infrastructure into Earth orbit.
 
 Instead of concentrating all computation on Earth, future systems may deploy intelligence directly into space through:
 
@@ -134,13 +130,11 @@ Instead of concentrating all computation on Earth, future systems may deploy int
 - orbital data centers
 - space-based cloud systems
 
-At first glance, this sounds futuristic.
-But the underlying logic is surprisingly rational.
+It sounds futuristic. The logic underneath is straightforward.
 
-## Why Space-Based AI Exists at All
+## Why Space Exists as an Option
 
-Space AI is emerging because terrestrial AI is beginning to encounter physical limits.
-The next stage of AI growth may not be constrained by software innovation.
+Space AI is emerging because terrestrial AI is hitting physical limits. The next stage of AI growth may not be constrained by software innovation.
 
 It may be constrained by:
 
@@ -149,30 +143,27 @@ It may be constrained by:
 - geopolitical vulnerability
 - physical infrastructure scaling
 
-Space offers solutions to several of these constraints simultaneously.
+Space offers answers to several of these constraints at once.
 
 ## The Advantages of Space-Based AI
 
 ### Near-Unlimited Solar Energy
 
-In orbit: there is no weather: some orbital paths experience near-continuous sunlight; solar collection efficiency is extremely high.
+In orbit there is no weather. Some orbital paths get near-continuous sunlight, and solar collection efficiency is extremely high.
 
-This reduces dependence on terrestrial electrical grids.
-Future orbital AI infrastructure may effectively operate on direct solar harvesting.
+This cuts dependence on terrestrial electrical grids. Future orbital AI infrastructure may run effectively on direct solar harvesting.
 
-### Thermal Management Through Vacuum Radiation
+### Cooling Through Vacuum Radiation
 
-One of the most important advantages is cooling.
-Space is a vacuum.
-Heat can be dissipated through radiative cooling directly into space itself.
-This may eventually become more efficient than terrestrial liquid-cooling systems for certain compute architectures.
-Ironically: The coldness of space may become one of AI’s greatest resources.
+One of the most important advantages is thermal. Space is a vacuum — heat radiates away directly into it. For certain compute architectures, that may eventually beat terrestrial liquid cooling.
+
+The coldness of space may become one of AI's greatest resources. The irony writes itself.
 
 ### Global Edge Intelligence
 
 Orbital AI systems could enable:
 
-- real-time military recognition
+- real-time military reconnaissance
 - autonomous drone coordination
 - ocean monitoring
 - global sensor fusion
@@ -195,59 +186,54 @@ Modern terrestrial AI depends heavily on fragile infrastructure:
 - semiconductor logistics
 - regional political stability
 
-Orbital systems are structurally different.
-They are harder to physically disrupt and less dependent on national infrastructure boundaries.
+Orbital systems are structurally different. They are harder to physically disrupt and less bound by national infrastructure borders.
 
-This has enormous implications for:
+That has real implications for:
 
 - sovereign AI
 - military AI
 - geopolitical resilience
 - technological independence
 
-## Why Space AI Is Still Early?
+## Why Space AI Is Still Early
 
-Despite its potential, space-based AI remains immature.
-The obstacles are enormous.
+The potential is real. So are the obstacles.
 
 ### Launch Costs
 
-Sending compute hardware into orbit remains extremely expensive.
-Although SpaceX dramatically reduced launch costs, orbital deployment is still far more costly than terrestrial installation.
+Sending compute hardware into orbit remains extremely expensive. SpaceX dramatically reduced launch costs, but orbital deployment is still far more costly than terrestrial installation.
 
-### Maintenance Problems
+### Maintenance
 
-On Earth: broken GPUs can be replaced; failed systems can be repaired.
+On Earth, broken GPUs get replaced. Failed systems get repaired.
 
-In orbit: failure may be permanent. This fundamentally changes infrastructure economics.
+In orbit, failure may be permanent. That fundamentally changes infrastructure economics.
 
 ### Radiation Damage
 
-Space radiation introduces severe reliability problems:
+Space radiation causes severe reliability problems:
 
 - bit flips
 - chip degradation
 - instability
 
-Orbital AI systems require radiation-hardened hardware, which often sacrifices performance for durability.
+Orbital AI needs radiation-hardened hardware, which usually sacrifices performance for durability.
 
 ### Latency Constraints
 
-Large model training depends on ultra-fast inter-GPU communication.
-
-Satellite communication still suffers from:
+Large model training depends on ultra-fast inter-GPU communication. Satellite links still suffer from:
 
 - higher latency
 - lower bandwidth
 - synchronization challenges
 
-As a result: Space AI is likely better suited for inference than frontier-model training. The most likely future architecture is therefore hybrid.
+So space AI fits inference better than frontier-model training. The most likely future architecture is hybrid.
 
-## New investment opportunities！
+## Where the Money Goes
 
-### *Electric power industry* (In my view, One of the most promising industries)
+### Electric Power: The Obvious Bottleneck Trade
 
-The AI boom may transform electricity into one of the most valuable strategic assets of the next decade.
+The AI boom may turn electricity into one of the most valuable strategic assets of the next decade.
 
 Potential beneficiaries include:
 
@@ -257,9 +243,9 @@ Potential beneficiaries include:
 - renewable energy operators
 - utility-scale battery systems
 
-In many ways: *AI is turning electricity into the new oil*.
+In many ways, AI is turning electricity into the new oil.
 
-### Data Centers Become the New Industrial Real Estate
+### Data Centers Become Industrial Real Estate
 
 AI data centers increasingly resemble industrial infrastructure rather than traditional tech assets.
 
@@ -282,18 +268,16 @@ If space-based AI matures, entirely new industries may emerge:
 
 This could become the next evolution beyond traditional cloud computing.
 
-## *SpaceX* 
+### SpaceX
 
-One of the most interesting future scenarios is this:
-What happens if SpaceX eventually becomes publicly listed?
+One of the most interesting scenarios: what happens if SpaceX eventually lists?
 
-If that occurs, investors may no longer value SpaceX merely as:
+If that occurs, investors may stop valuing SpaceX as:
 
 - a rocket company
 - a satellite company
 - a launch provider
 
-Instead, it may increasingly be viewed as: Foundational infrastructure for the orbital AI economy. Because the true bottleneck for orbital computing is not software.
-It is launch economics.This is exactly what Peter Thiel refers to as the process of going from zero to one. This will be a completely new business model (New investment opportunity).
-Whoever controls low-cost orbital deployment may partially control the next generation of computational geography.
+Instead, it may increasingly be priced as foundational infrastructure for the orbital AI economy. Because the true bottleneck for orbital computing is not software. It is launch economics. Whoever controls low-cost orbital deployment may partially control the next generation of computational geography.
 
+This is Peter Thiel's zero-to-one, applied to the sky: a completely new business model, and a new investment opportunity with it.
