@@ -7,6 +7,11 @@
 
   <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
 
+  <!-- Rounded type: Nunito for Latin, Noto Sans SC for Chinese -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+
   {% seo title=false %}
 
   <!-- Google Analytics (GA4) — currently disabled.
@@ -43,7 +48,7 @@
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
       line-height: 1.7;
       min-height: 100vh;
       display: flex;
@@ -61,7 +66,7 @@
     }
 
     .logo {
-      font-family: "Courier New", monospace;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 1rem;
       letter-spacing: 0.08em;
       font-weight: bold;
@@ -84,7 +89,7 @@
       color: #666;
       text-decoration: none;
       margin-left: 24px;
-      font-family: "Courier New", monospace;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 0.75rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
@@ -114,7 +119,7 @@
 
     .intro-box h1 {
       letter-spacing: -0.01em;
-      font-weight: 900;
+      font-weight: 800;
     }
 
     .intro-box h2 {
@@ -156,7 +161,7 @@
     }
 
     .intro-quote {
-      font-family: "Courier New", monospace;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 0.85rem;
       color: #444;
       border-left: 3px solid #111;
@@ -190,7 +195,7 @@
       border: none;
       border-bottom: 1px solid #ccc;
       background: transparent;
-      font-family: "Courier New", monospace;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 0.85rem;
       outline: none;
       transition: border-color 0.15s ease;
@@ -206,7 +211,7 @@
     }
 
     .post-meta {
-      font-family: "Courier New", monospace;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 0.72rem;
       color: var(--muted);
       text-transform: uppercase;
@@ -273,7 +278,7 @@
       background: #111;
       color: #fff;
       padding: 6px 14px;
-      font-family: "Courier New", monospace;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 0.75rem;
       text-decoration: none;
       margin-bottom: 36px;
@@ -282,7 +287,7 @@
     .article h1 {
       font-size: 2.35rem;
       line-height: 1.25;
-      font-weight: 900;
+      font-weight: 800;
       margin-bottom: 28px;
     }
 
@@ -305,7 +310,7 @@
     }
 
     .article-content h2 {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 1.35rem;
       margin: 2.2em 0 1em;
       border-bottom: 1px solid #111;
@@ -313,7 +318,7 @@
     }
 
     .article-content h3 {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 1.1rem;
       margin: 2em 0 0.8em;
     }
@@ -372,7 +377,7 @@
     }
 
     .copyright {
-      font-family: "Courier New", monospace;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 0.75rem;
       margin-top: 18px;
       opacity: 0.65;
@@ -383,7 +388,7 @@
       text-align: center;
       color: #666;
       padding: 30px;
-      font-family: "Courier New", monospace;
+      font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     }
 
     @media (max-width: 700px) {
@@ -449,12 +454,7 @@
   padding-bottom: 0.45em;
   border-bottom: 1px solid #111;
 
-  font-family:
-    Helvetica,
-    Arial,
-    "PingFang SC",
-    "Microsoft YaHei",
-    sans-serif;
+  font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 
 .article-content h3 {
@@ -486,7 +486,7 @@
   }
 
   .toc-title {
-    font-family: "Courier New", monospace;
+    font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     font-size: 0.75rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -535,7 +535,7 @@
     border: 1px solid #111;
     padding: 3px 9px;
     margin: 3px 6px 3px 0;
-    font-family: "Courier New", monospace;
+    font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     font-size: 0.68rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -623,7 +623,7 @@
   }
 
   .archive-date {
-    font-family: "Courier New", monospace;
+    font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     font-size: 0.72rem;
     color: var(--muted);
     white-space: nowrap;
@@ -642,7 +642,7 @@
   .page-btn {
     border: 1px solid #111;
     padding: 8px 16px;
-    font-family: "Courier New", monospace;
+    font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     font-size: 0.78rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -664,7 +664,7 @@
   }
 
   .page-status {
-    font-family: "Courier New", monospace;
+    font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     font-size: 0.75rem;
     color: var(--muted);
     letter-spacing: 0.06em;
@@ -677,7 +677,7 @@
   }
 
   .error-code {
-    font-family: "Courier New", monospace;
+    font-family: "Nunito", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     font-size: 5rem;
     font-weight: 900;
     letter-spacing: 0.04em;
