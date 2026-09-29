@@ -8,99 +8,56 @@ tags: [Federal Reserve, Interest Rates, Fiscal Policy]
 
 Yesterday's FOMC meeting produced a 9-3 vote to hold rates at 3.5–3.75%. Three dissenters — Cleveland's Beth Hammack, Minneapolis's Neel Kashkari, and Dallas's Lorie Logan — voted to hike 25 basis points. The Dow closed down over 1,100 points, its worst day in more than a year. The 30-year Treasury yield hit its highest level since 2007.
 
-And yet: no rate hike happened. Warsh held. The outcome was exactly what the fiscal arithmetic of this situation demanded — even as the press conference rhetoric was calibrated to sound as hawkish as possible without actually tightening policy.
+And yet: no hike happened. Warsh held. The outcome was exactly what the fiscal arithmetic demanded — even as the press conference rhetoric was tuned to sound as hawkish as possible without actually tightening.
 
-This is the gap worth understanding. The distance between what Warsh *says* and what the Fed *does* is not inconsistency. It is a deliberate institutional strategy operating under constraints that are rarely made explicit in financial media. This post tries to make them explicit.
+That gap is the thing worth understanding. The distance between what Warsh *says* and what the Fed *does* is not inconsistency. It is a deliberate institutional strategy running under constraints that financial media rarely makes explicit. This post tries to make them explicit.
 
 ---
 
 ## The Greenspan Precedent — Dollar Hegemony as the Invisible Permission Slip
 
-To understand why the Fed has more flexibility on inflation than it publicly admits, it helps to go back to the Greenspan era — not as nostalgia, but as a structural baseline.
+To see why the Fed has more room on inflation than it publicly admits, go back to the Greenspan era — not as nostalgia, but as a structural baseline.
 
-From the mid-1980s through the early 2000s, Greenspan navigated multiple inflationary pressures — the tail end of the 1970s inflation legacy, the S&L crisis, the dot-com bubble — with a monetary policy that, by any traditional Taylor Rule standard, should have been more restrictive than it was. He cut rates aggressively during downturns and was slow to raise them during recoveries. The result was not runaway inflation. It was two decades of broadly stable prices alongside significant economic expansion.
+From the mid-1980s through the early 2000s, Greenspan faced repeated inflationary pressure — the tail of the 1970s inflation, the S&L crisis, the dot-com bubble — with policy that, by any traditional Taylor Rule standard, should have been tighter than it was. He cut aggressively into downturns and raised slowly into recoveries. The result was not runaway inflation. It was two decades of broadly stable prices alongside major economic expansion.
 
-The mechanism that made this possible was dollar hegemony. As the world's reserve currency, the dollar had a structurally elevated global demand that was independent of US domestic monetary conditions. Central banks in Asia, the Middle East, and Latin America accumulated dollars as reserves; commodity contracts were denominated in dollars; trade invoices settled in dollars. This structural demand absorbed dollar supply that would otherwise have generated domestic inflationary pressure. The US, in effect, exported a portion of its monetary expansion to the global economy, which absorbed it willingly because dollar liquidity was what those economies needed to function.
+The mechanism was dollar hegemony. As the world's reserve currency, the dollar carried structurally elevated global demand independent of US domestic conditions. Central banks across Asia, the Middle East, and Latin America stockpiled dollars as reserves; commodities were priced in dollars; trade settled in dollars. That structural demand absorbed dollar supply that would otherwise have shown up as domestic inflation. The US effectively exported part of its monetary expansion to a global economy that absorbed it willingly, because dollar liquidity was what those economies needed to function.
 
-This gave the Fed a meaningful degree of freedom that conventional inflation models, calibrated to closed-economy dynamics, significantly underestimated. Greenspan understood this intuitively — his public statements were famously opaque, but his actions consistently reflected a willingness to run monetary policy looser than the textbook suggested was safe.
+That gave the Fed a degree of freedom that closed-economy inflation models significantly underestimated. Greenspan understood it intuitively — his public statements were famously opaque, but his actions consistently ran looser than the textbook said was safe.
 
-**The current situation is not radically different.** The dollar's share of global reserves has declined from roughly 70% in 2000 to approximately 58% today — a meaningful shift but not a collapse. The dollar remains the dominant invoicing currency for global trade, the primary vehicle for cross-border financial transactions, and the anchor for the vast majority of global financial contracts. The structural demand for dollars that gives the Fed its extra degree of freedom has diminished at the margin but has not disappeared.
+The current situation is not radically different. The dollar's share of global reserves has fallen from roughly 70% in 2000 to about 58% today — a real shift, not a collapse. The dollar remains the dominant invoicing currency for global trade, the primary vehicle for cross-border transactions, and the anchor for the vast majority of global financial contracts. The structural demand that buys the Fed its extra room has thinned at the margin, not disappeared.
 
-The implication: when Warsh insists there is "no soft inflation target" and repeats "2% is the target, not one basis point above," he is managing the Fed's *credibility*, not necessarily signaling the Fed's *operational tolerance*. The credibility matters — anchor inflation expectations loosely and you invite the kind of unmooring that genuinely requires painful tightening. But the actual behavioral flexibility the Fed has to tolerate above-2% inflation for extended periods, without triggering a credibility collapse, is larger than the hawkish rhetoric implies.
+The implication: when Warsh insists there is "no soft inflation target" and repeats "2% is the target, not one basis point above," he is managing the Fed's *credibility*, not describing its *operating tolerance*. The credibility matters — let expectations unmoor and you invite the kind of drift that genuinely requires painful tightening. But the Fed's actual room to tolerate above-2% inflation for extended stretches, without a credibility collapse, is larger than the hawkish rhetoric suggests.
 
 ---
 
 ## The Treasury's Growing Role
 
-Perhaps the most important structural change is not within the Federal Reserve itself, but within the U.S. Treasury.
+The most important structural change may not be inside the Fed at all, but inside the U.S. Treasury.
 
-Fiscal policy is gradually becoming as influential as, and in some circumstances arguably more influential than, traditional monetary policy.
+Fiscal policy is becoming as influential as traditional monetary policy — in some conditions arguably more so. Treasury revenues, tax receipts above all, now function as a genuine policy instrument. Rather than relying solely on Fed liquidity, the Treasury has growing room to steady markets through debt management operations, including buying back short-term Treasuries.
 
-Treasury revenues—particularly tax receipts—have become increasingly important as a policy instrument.
-
-Rather than relying exclusively on Federal Reserve liquidity, the Treasury now possesses greater flexibility to support financial-market stability through debt management operations, including the repurchase of short-term Treasury securities.
-
-This evolving coordination between fiscal and monetary authorities helps explain why the Federal Reserve has not rushed to cut rates immediately.
-
-The objective, however, still appears to be eventual monetary easing, even in an environment characterized by elevated geopolitical uncertainty, aggressive trade policies, and persistent volatility in oil prices and government bonds.
+This evolving fiscal-monetary coordination helps explain why the Fed hasn't rushed to cut. The objective still looks like eventual easing — even with elevated geopolitical uncertainty, aggressive trade policy, and volatile oil and bond markets.
 
 ---
 
 ## Interpreting the Latest FOMC Meeting
 
-Throughout yesterday's FOMC press conference, inflation remained one of the central topics raised by reporters.
+All through yesterday's press conference, reporters kept circling back to inflation. Warsh's answer, each time: let market forces adjust, no signal of further tightening. Read plainly, the Fed has no appetite for a return to hiking.
 
-Despite repeated questions regarding inflation risks, Warsh consistently emphasized allowing market forces to adjust naturally rather than signaling additional monetary tightening.
+One detail worth noting. Before the meeting, a Citadel Securities analyst was reportedly calling for a 25-basis-point hike — a call that would have surprised most of the market. Even the most sophisticated quant shops get it wrong sometimes. Polymarket, for all my reservations about prediction markets, had the consensus right. It's the old statistical observation: under the right conditions, aggregated independent judgments beat individual experts.
 
-To me, this implied that the Federal Reserve currently has little interest in returning to a rate-hiking cycle.
-
-An interesting observation concerns market expectations.
-
-Before the meeting, one analyst at **Citadel Securities** reportedly predicted a 25-basis-point rate increase—an outcome that would have surprised most investors.
-
-This illustrates an important point:
-
-Even highly sophisticated quantitative firms and market makers can produce forecasts that differ substantially from the eventual outcome.
-
-Interestingly, prediction markets such as **Polymarket** ultimately reflected the consensus expectation more accurately.
-
-Although I remain cautious about relying on prediction markets alone, this episode serves as a reminder of a classic statistical observation: under certain conditions, the aggregated judgment of many independent participants can outperform individual experts.
-
-Economics often assumes that **market participants behave rationally**.
-
-Reality is considerably more complicated.
-
-Neither individuals nor institutions are perfectly rational, and financial markets are ultimately driven by expectations, incentives, uncertainty, and imperfect information.
+Economics assumes rational participants. Reality is messier. Neither individuals nor institutions are perfectly rational — markets run on expectations, incentives, uncertainty, and imperfect information.
 
 ---
 ## My View
 
-My base case is that the Federal Reserve is still moving toward an eventual rate-cutting cycle, while waiting for conditions in the Treasury market to stabilize.
+My base case: the Fed is still drifting toward an eventual cutting cycle, waiting for the Treasury market to stabilize first. Until then, further hikes look unlikely. If Warsh's influence grows, expect his framework to hold — cut rates when conditions allow, keep shrinking the balance sheet over time, lean harder on Treasury coordination for financial stability, intervene directly less.
 
-Until that objective is achieved, additional rate hikes appear unlikely.
-
-If Warsh assumes a more influential role in future monetary policy, I expect his long-held framework to remain broadly unchanged:
-
-- Cut interest rates when conditions allow;
-- Continue balance-sheet normalization over the longer term(QT);
-- Rely more heavily on Treasury coordination to maintain financial stability;
-- Reduce the Federal Reserve's direct intervention in financial markets.
-
-Because Treasury debt management has become increasingly important, future quantitative tightening may have a smaller impact on equity markets than previous tightening cycles.
-
-Finally, equity-market performance itself has become increasingly relevant from a fiscal perspective.
-
-Strong equity markets support capital-gains tax revenues, which represent an important source of government income.
-
-As a result, maintaining financial stability and avoiding unnecessary disruptions in asset prices has become a shared objective of both the Treasury and the Federal Reserve.
+Because Treasury debt management now carries more weight, future QT may land softer on equities than past cycles did. And equity performance itself has become fiscally relevant: strong markets feed capital-gains tax revenue, a major source of government income. Keeping asset prices stable, without unnecessary disruption, has become a shared objective of the Treasury and the Fed.
 
 ---
 
 
 
 ## Conclusion
-The relationship between the Federal Reserve and the U.S. Treasury is evolving.
-
-Rather than viewing monetary policy in isolation, investors should increasingly analyze the interaction between fiscal policy, Treasury financing, debt-market stability, and monetary decisions.
-
-In my opinion, this coordination—not individual interest-rate decisions—will likely become the dominant macroeconomic theme over the coming years.
+The Fed–Treasury relationship is evolving. The right unit of analysis is no longer monetary policy in isolation but the interaction of fiscal policy, Treasury financing, debt-market stability, and monetary decisions. That coordination — not any single rate decision — is likely the dominant macro theme of the next few years.

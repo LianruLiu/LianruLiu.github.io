@@ -4,6 +4,7 @@ title: "Reading the Selloff: Liquidity, Narrative, and Who Actually Benefits"
 date: 2026-06-06
 categories: Investment
 tags: [Market Structure, Liquidity, Capital Markets]
+redirect_from: /Investment/2026/06/06/Inveatment.html
 ---
 
 Markets sold off hard this week. The Nasdaq dropped about 4.18%, chip stocks led the decline, and leveraged accounts got hit across the board. The surface explanation was clean enough: nonfarm payrolls printed 172,000 against 88,000 expected — nearly double consensus — and the hawkish read, combined with signals from incoming Fed Chair Kevin Warsh, sent rate-hike odds surging. A quarter-point hike is now fully priced by year-end on the CME FedWatch tool.
