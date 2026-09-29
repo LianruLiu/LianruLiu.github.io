@@ -62,22 +62,19 @@ None of which changes what Hyperliquid proved: you can build a multi-billion-dol
 
 We have never seen this movie before: an exchange whose entire capital-return policy is "buy our own token," running on a chain it built itself, with no insiders on the cap table. That is exactly why it is worth watching. The first real bear market will be the audit.
 
-## References
-
-1. CoinDesk — "Most Influential: Jeff Yan" (Dec 2025): founder background, self-funding via Chameleon Trading, 31% airdrop, no VC allocations. https://www.coindesk.com/business/2025/12/19/most-influential-jeff-yan
-2. Phemex Academy — "Who Is Jeff Yan? The Hyperliquid Founder Behind HYPE" (2026): Nov 29, 2024 TGE details, refusal of paid market makers, ~$2.9T 2025 volume. https://phemex.com/academy/jeff-yan-hyperliquid-founder-exchange
-3. Gate News — "Unveiling Hyperliquid Founder Jeff Yan": token distribution breakdown (31% / 38.888% / 23.8% / 6%), "scars of the network" quote, growth timeline. https://www.gate.com/news/detail/12283139
-4. insights4vc (Substack) — "Hyperliquid: Inside the $4 Trillion Onchain Market Machine": airdrop as decentralization/go-to-market/legitimacy event, HYPE as multi-function collateral. https://insights4vc.substack.com/p/hyperliquid-inside-the-4-trillion
-5. Hyperliquid Community Wiki — "What is Hyperliquid": vision ("houses all of finance"), fee routing (Assistance Fund, HLP, deployers), builder codes. https://github.com/hyperliquid-community/wiki-community/blob/HEAD/introduction/what-is-hyperliquid.md
-6. Hyperliquid Community Wiki — JELLY incident report (2025-03-26): timeline, validator vote to delist, settlement mechanics, post-mortem measures. https://github.com/hyperliquid-community/wiki-community/blob/HEAD/introduction/roadmap/incident/2025-26-03.md
-7. onchainattack/OAK — "2025-03 Hyperliquid JELLY self-liquidation cross-venue": attacker P&L (~−$1M), HLP +$700K, HYPE −20%. https://github.com/onchainattack/oak/blob/HEAD/examples/2025-03-hyperliquid-jelly-self-liquidation-cross-venue.md
-8. Bankless Times — "Hyperliquid Delists JELLY Perpetual Contracts After Suspicious Market Activity" (Mar 26, 2025). https://www.banklesstimes.com/articles/2025/03/26/hyperliquid-delists-jelly-perpetual-contracts-after-suspicious-market-activity/
-9. cache256 — "Hyperliquid 2026: The Buyback Flywheel & the Control Layer": ~$1.1B annualized fees, ~$3.1B Assistance Fund, validator concentration, bridge custody risk. https://www.cache256.com/ecosystem/hyperliquid-perp-dex-infrastructure/
-10. CoinLaw — "Hyperliquid Statistics 2026": $245B 30-day volume, 36.47% on-chain share, $5.9B TVL, 44.5M HYPE in Assistance Fund. https://coinlaw.io/hyperliquid-statistics/
-11. Yellow Research — "Hyperliquid Owns 13% Of All Perp Volume" (Apr 2026): no-VC growth, dual-layer architecture. https://yellow.com/research/hyperliquid-perp-volume-dominance-how-2026
-12. ARX — "Perp DEX Wars 2026: Hyperliquid vs Lighter vs Aster": competitive landscape, fee comparison. https://arx.trade/blog/perp-dex-wars-hyperliquid-lighter-aster/
-13. tokenomics.com — "Hyperliquid Tokenomics: How HYPE Captures $65M Monthly in Holder Revenue": HIP-3 burn proposal debate. https://tokenomics.com/articles/hyperliquid-tokenomics-how-hype-captures-65m-monthly-in-holder-revenue
-14. Blockonomi — "HYPE Reaches $95.17" (Sep 2026): ATH details, native lending launch, Bitnomial/Kraken proposal, 26% circulating supply. https://blockonomi.com/hyperliquid-hype-reaches-95-17-why-the-token-keeps-breaking-records/
-15. Cryptopolitan — "Hyperliquid Crosses 7% of Exchange Perp Volume" (2026): Artemis data, Arthur Hayes $18M HYPE exit (June 2026). https://www.cryptopolitan.com/hyperliquid-perp-volume-market-share/
-
----
+## Reference  
+[CoinDesk — Most Influential: Jeff Yan](https://www.coindesk.com/business/2025/12/19/most-influential-jeff-yan)
+[Phemex Academy — Who Is Jeff Yan? The Hyperliquid Founder Behind HYPE](https://phemex.com/academy/jeff-yan-hyperliquid-founder-exchange)
+[Gate News — Unveiling Hyperliquid Founder Jeff Yan](https://www.gate.com/news/detail/12283139)
+[insights4vc — Hyperliquid: Inside the $4 Trillion Onchain Market Machine](https://insights4vc.substack.com/p/hyperliquid-inside-the-4-trillion)
+[Hyperliquid Community Wiki — What is Hyperliquid](https://github.com/hyperliquid-community/wiki-community/blob/HEAD/introduction/what-is-hyperliquid.md)
+[Hyperliquid Community Wiki — JELLY Incident Report (2025-03-26)](https://github.com/hyperliquid-community/wiki-community/blob/HEAD/introduction/roadmap/incident/2025-26-03.md)
+[onchainattack/OAK — JELLY Self-Liquidation Cross-Venue Case Study](https://github.com/onchainattack/oak/blob/HEAD/examples/2025-03-hyperliquid-jelly-self-liquidation-cross-venue.md)
+[Bankless Times — Hyperliquid Delists JELLY Perpetual Contracts](https://www.banklesstimes.com/articles/2025/03/26/hyperliquid-delists-jelly-perpetual-contracts-after-suspicious-market-activity/)
+[cache256 — Hyperliquid 2026: The Buyback Flywheel & the Control Layer](https://www.cache256.com/ecosystem/hyperliquid-perp-dex-infrastructure/)
+[CoinLaw — Hyperliquid Statistics 2026](https://coinlaw.io/hyperliquid-statistics/)
+[Yellow Research — Hyperliquid Owns 13% Of All Perp Volume](https://yellow.com/research/hyperliquid-perp-volume-dominance-how-2026)
+[ARX — Perp DEX Wars 2026: Hyperliquid vs Lighter vs Aster](https://arx.trade/blog/perp-dex-wars-hyperliquid-lighter-aster/)
+[tokenomics.com — Hyperliquid Tokenomics: How HYPE Captures $65M Monthly](https://tokenomics.com/articles/hyperliquid-tokenomics-how-hype-captures-65m-monthly-in-holder-revenue)
+[Blockonomi — HYPE Reaches $95.17: Why the Token Keeps Breaking Records](https://blockonomi.com/hyperliquid-hype-reaches-95-17-why-the-token-keeps-breaking-records/)
+[Cryptopolitan — Hyperliquid Crosses 7% of Exchange Perp Volume](https://www.cryptopolitan.com/hyperliquid-perp-volume-market-share/)
