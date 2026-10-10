@@ -84,9 +84,8 @@ The siege works because the besieged helped build it. That is what makes it unso
 
 ## Reference
 
-1. [Eurostat via EuropeSays — EU Oil Import Values Surge 55.8% in 2Q26](https://www.europesays.com/europe/144319/)
-2. [Eurostat via EuropeSays — US Consolidates Position as Europe's Largest Energy Supplier](https://www.europesays.com/europe/145193/)
-3. [IEA — Strait of Hormuz: \~20 mb/d, Around 25% of World Seaborne Oil Trade](https://www.iea.org/about/oil-security-and-emergency-ission/strait-of-hormuz)
-4. [gCaptain — EU Imports Record 12.18 Million Tonnes of Russian Arctic LNG in Jan–Sep 2026](https://gcaptain.com/eu-imports-record-12-18-million-tonnes-of-russian-arctic-lng/)
-5. [US Congress CRS — Iran Conflict and the Strait of Hormuz: Oil and Gas Market Impacts](https://www.congress.gov/crs_external_products/R/PDF/R45281/R45281.4.pdf)
-6. [Reuters — Croatian Court Allows Extradition of Nord Stream Blast Suspect to Germany (Sep 2026)](https://www.reuters.com/world/croatian-court-allows-extradition-nord-stream-blast-suspect-germany-media-2026-09-24/)
+1. [Eurostat — EU Oil Imports Value Up by 56%, Volume Stable in Q2 2026](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20260922-2)
+2. [IEA — Strait of Hormuz: ~20 mb/d, Around 25% of World Seaborne Oil Trade](https://www.iea.org/about/oil-security-and-emergency-ission/strait-of-hormuz)
+3. [gCaptain — EU Imports Record 12.18 Million Tonnes of Russian Arctic LNG in Jan–Sep 2026](https://gcaptain.com/eu-imports-record-12-18-million-tonnes-of-russian-arctic-lng/)
+4. [US Congress CRS — Iran Conflict and the Strait of Hormuz: Oil and Gas Market Impacts](https://www.congress.gov/crs_external_products/R/PDF/R45281/R45281.4.pdf)
+5. [Reuters — Croatian Court Allows Extradition of Nord Stream Blast Suspect to Germany (Sep 2026)](https://www.reuters.com/world/croatian-court-allows-extradition-nord-stream-blast-suspect-germany-media-2026-09-24/)
