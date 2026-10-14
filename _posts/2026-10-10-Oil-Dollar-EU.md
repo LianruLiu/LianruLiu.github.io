@@ -48,7 +48,7 @@ Take it purely from economics — David Ricardo's theory of trade. Open foreign 
 
 Look at Europe's top companies. They are usually not tech companies — they are consumer companies. Market monopolists. So they lean toward supporting EU barriers against cheaper foreign products, to limit their own losses.
 
-If America is the rule-maker of this competition, and China and the EU are the players, then Europe's strategists are clearly not wise enough. Prolonged inefficiency, bureaucratic drag, and strategic mistakes will cost them decades of sustained economic losses.
+**If America is the rule-maker of this competition, and China and the EU are the players, then Europe's strategists are clearly not wise enough. Prolonged inefficiency, bureaucratic drag, and strategic mistakes will cost them decades of sustained economic losses.**
 
 ---
 
