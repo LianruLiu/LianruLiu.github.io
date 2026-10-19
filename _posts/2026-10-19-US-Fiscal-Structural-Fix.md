@@ -65,3 +65,4 @@ Once you see this, a lot of seemingly contradictory policies make sense: why mar
 1. [Bipartisan Policy Center — The Fiscal Outlook in CBO's Latest 10-Year Baseline](https://bipartisanpolicy.org/explainer/the-fiscal-outlook-in-cbos-latest-10-year-baseline/)
 2. [American Action Forum — CBO: FY2025 Budget Deficit Totaled $1.8 Trillion](https://www.americanactionforum.org/insight/cbo-fy-2025-budget-deficit-totaled-1-8-trillion/)
 3. [CBO — Revenues in Fiscal Year 2024: An Infographic](https://www.cbo.gov/publication/61185)
+
