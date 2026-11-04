@@ -26,7 +26,7 @@ So what comes next? In my view, America's stock market and inflation will become
 
 The reason is simple, and it is the same for both sides:
 
-For Democrats, winning Congress is only the beginning. They have to prove to voters that they manage the economy better than Republicans. And the two most visible items on the economic report card are stocks and inflation. Stocks up, and fiscal revenue is secured — the logic I laid out in "The Structural Fix for America's Fiscal Problem": the tax base is anchored to asset prices, and no administration can get around it. Inflation down, and ordinary people's lives get better, and votes hold.
+For Democrats, winning Congress is only the beginning. They have to prove to voters that they manage the economy better than Republicans. And the two most visible items on the economic report card are stocks and inflation. Stocks up, and fiscal revenue is secured — the logic I laid out in "The Structural Fix for America's Fiscal Problem": the tax base is anchored to asset prices, and no administration can get around it. Inflation down, and ordinary people's lives get better, and votes hold. In other words, the virtuous cycle of tech stocks is an idealized state.
 
 For the Trump administration, having lost Congress, stocks and inflation are its last remaining dignity. Executive power is still in its hands, and market performance and price data are the only credentials it has left to show its base.
 
