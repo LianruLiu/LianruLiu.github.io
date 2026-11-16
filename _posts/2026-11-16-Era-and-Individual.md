@@ -50,6 +50,16 @@ But the tragic fate faced by one generation is, in fact, their whole life.
 
 Human life is truly too short.
 
+**Afterword**
+
+Just a few reflections on the recent chaotic market and on countries' economic measures that keep missing the point — for example, the ever more numerous and ever heavier taxes in Europe and America — and a lament for the brevity of human life.
+
+I still hope the US Treasury and the Federal Reserve will take some action to rescue the market — this matters enormously for the world economy.
+
+And I hope this week's meeting between Trump, Putin, and Xi can effectively resolve the war issue.
+
+Human life is so short — why not stop the wars, find someone you love, do what you love together, and go where you want to go (Montreal, Tokyo, for example :)). Young people of Generation Z face so many problems accumulated by the previous generation, and so much of their short and beautiful youth has already been wasted.
+
 ---
 
 ## Reference
